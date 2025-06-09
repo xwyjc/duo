@@ -10,10 +10,6 @@
 		
 		
 		
-		
-		
-		
-		
 		{"key": "GimyTV","name": "💕GimyTV","type": 3,
          "searchable": 1,"quickSearch": 1,"changeable": 1,
          "filterable": 0,"timeout": 60,"api": "csp_XBPQ",
@@ -22,29 +18,33 @@
           "主页url": "https://gimy.tv/",
           "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
           "简介":"video-info-item video-info-content vod_content\"&&</div>",
-	      "导演":"导演：&&</div>","主演":"<div class=\"module-info-item-content\">&&</div>",
+	      "导演":"导演：&&</div>",
+		  "主演":"<div class=\"module-info-item-content\">&&</div>",
 	      "影片状态":"集数：&&</div>",
 	      "影片类型":"<div class=\"module-card-item-class\">&&</div>",
-	     "数组":"<a&&</div></div></a>","标题":"title=\"&&\"",
-	     "副标题":"note\">&&</div>","图片":"data-original=\"&&\"",
+	      "数组二次截取":"<div class=\"module-items module-poster-items-base\">&& <div id=\"page\">",
+		 "数组":"<a&&</a>",
+		 "标题":"title=\"&&\"",
+	     "副标题":"note\">&&</div>",
+		 "图片":"data-original=\"&&\"",
 	     "链接":"href=\"&&\"",
 	     "线路数组":"data-dropdown-value=&&</div>",
 	     "线路标题":"<span>&&</small>",
 	      "播放数组":"<div class=\"module-play-list-content&&</div>",
-	      "播放标题":"<span>&&</span>","播放列表":"<a&&</a>",
-           "搜索数组": "lazyload\"&&</a",
-           "搜索图片": "data-original=\"&&\"",
-           "搜索标题": "title=\"&&\"",
-           "搜索链接": "href=\"&&\"",
-           "分类url": "https://gimy.tv/genre/{cateId}--{year}-{catePg}/by/{by}.html",
-           "分类": "电视剧$2#电影$1#综艺$3#动漫$4"} },
+	      "播放标题":"<span>&&</span>",
+		  "播放列表":"<a&&</a>",
+          "搜索数组": "lazyload\"&&</a",
+          "搜索图片": "data-original=\"&&\"",
+          "搜索标题": "title=\"&&\"",
+          "搜索链接": "href=\"&&\"",
+          "分类url": "https://gimy.tv/genre/{cateId}--{year}-{catePg}/by/{by}.html",
+          "分类": "电视剧$2#电影$1#综艺$3#动漫$4"} },
 
 		
-     { "key": "csp_XBPQ_两个BT",
-	"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-      "name": "两个BT bttwo.vip", "type": 3, "api": "csp_XBPQ",
-      "searchable": 1,"quickSearch": 1, "filterable": 1,
-      "ext": {
+      { "key": "csp_XBPQ_两个BT",
+       "name": "两个BT bttwo.vip", "type": 3, "api": "csp_XBPQ",
+       "searchable": 1,"quickSearch": 1, "filterable": 1,
+       "ext": {
         "线路数组":"mi_paly_box\">&&</div>",
         "线路标题":"ypxingq_t\">&&<span>[替换:在线播放>>播放列表]",
         "搜索url":"https://www.bttwoo.com/xssearch?q={wd}&f=_all&p={pg}",
@@ -55,13 +55,10 @@
 		
 		{
 			"key": "XBPQ_OKTV",
-			"name": "🌤OKTV|XB",
-			"type": 3,
+			"name": "🌤OKTV|XB","type": 3,
 			"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
+			"api": "csp_XBPQ","searchable": 1,
+			"quickSearch": 1,"filterable": 1,
 			"ext": {
 				"简介": "简介：</span>&&</a>",
 				"导演": "导演：target=\"_blank\">&&</a>",
@@ -87,19 +84,11 @@
 				"播放列表": "<a&&/a>",
                 "播放链接": "href=\"&&\"",
 				"分类url": "https://oktv.live/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-				"分类": "电影$1#连续剧$2#动漫$4#综艺$3#体育$20短剧$21"
-			}
-		},
+				"分类": "电影$1#连续剧$2#动漫$4#综艺$3#体育$20短剧$21"}},
 		
 		
-		{
-			"key": "csp_XBPQ_03影视",
-			"name": "🌼03影视┃XB",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
+		{"key": "csp_XBPQ_03影视","name": "🌼03影视┃XB",
+			"type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,
 			"ext": {
 				"副标题": "<span>&&<",
 				"简介": "<p>&&</p>",
@@ -109,17 +98,13 @@
 				"播放列表": "<a&&/a>",
 				"分类url": "https://www.03yy.co/{cateId}-{catePg}.html",
 				"分类": "豆瓣电影Top250$topiclist/1#奥斯卡最佳影片$topiclist/17#网飞专场$topiclist/24#热映电影$topiclist/25#动作片$type/index5#喜剧片$type/index10#爱情片$type/index6#科幻片$type/index7#恐怖片$type/index8#战争片$type/index9#剧情片$type/index12#动画片$type/index25#大陆剧$type/index13#欧美剧$type/index27#韩国剧$type/index26#香港剧$type/index14#台湾剧$type/index46#日本剧$type/index16#泰国剧$type/index47#海外剧$type/index28#大陆动漫$type/index33#日韩动漫$type/index34#欧美动漫$type/index35#少儿动画$type/index64#大陆综艺$type/index29#港台综艺$type/index30#日韩综艺$type/index31#欧美综艺$type/index32#经典韩剧（国语）$topiclist/19#经典港剧（粤语）$topiclist/18#经典美剧（英语）$topiclist/21"
-			}
-		},
+			}},
 		
 		
-	{
-      "key": "随客影视",
-      "name": "🎥｜随客｜影视",
-      "type": 3,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-      "api": "csp_XBPQ",
-      "ext": {
+	   {"key": "随客影视","name": "🎥｜随客｜影视", "type": 3,
+       "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+       "api": "csp_XBPQ",
+       "ext": {
           "请求头": "User-Agent$MOBILE_UA",
           "编码": "UTF-8",
           "数组": "lazyload\"&&</a",
