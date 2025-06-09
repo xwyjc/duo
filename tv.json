@@ -41,6 +41,7 @@
 
 		
      { "key": "csp_XBPQ_两个BT",
+	"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
       "name": "两个BT bttwo.vip", "type": 3, "api": "csp_XBPQ",
       "searchable": 1,"quickSearch": 1, "filterable": 1,
       "ext": {
@@ -50,10 +51,7 @@
         "播放数组":"<div class=\"paly_list_btn\">&&</div>",        
         "分类":"最新电影$new-movie#电视剧$dsj#热门下载$hot#本月热门$new-movie#高分电影$new-month#国产剧$zgjun#美剧$meiju#日韩剧$jpsrtv",
         //"分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"
-        "分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"
-
-      }
-    },
+        "分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"}},
 		
 		{
 			"key": "XBPQ_OKTV",
