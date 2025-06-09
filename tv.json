@@ -13,8 +13,7 @@
 		{"key": "GimyTV","name": "💕GimyTV","type": 3,
          "searchable": 1,"quickSearch": 1,"changeable": 1,
          "filterable": 0,"timeout": 60,"api": "csp_XBPQ",
-		// "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-         //"jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
+		
          "ext": {
           "主页url": "https://gimy.tv/",
           "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
@@ -50,13 +49,13 @@
         "搜索url":"https://www.bttwoo.com/xssearch?q={wd}&f=_all&p={pg}",
         "播放数组":"<div class=\"paly_list_btn\">&&</div>",        
         "分类":"最新电影$new-movie#电视剧$dsj#热门下载$hot#本月热门$new-movie#高分电影$new-month#国产剧$zgjun#美剧$meiju#日韩剧$jpsrtv",
-        //"分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"
+       
         "分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"}},
 		
 		{
 			"key": "XBPQ_OKTV",
 			"name": "🌤OKTV|XB","type": 3,
-			//"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+		
 			"api": "csp_XBPQ","searchable": 1,
 			"quickSearch": 1,"filterable": 1,
 			"ext": {
@@ -102,7 +101,7 @@
 		
 		
 	   {"key": "随客影视","name": "🎥｜随客｜影视", "type": 3,
-       "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+      // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
        "api": "csp_XBPQ",
        "ext": {
           "请求头": "User-Agent$MOBILE_UA",
@@ -184,11 +183,274 @@
 		},
 		
 		{
+        "key": "一起看影视",
+        "name": "一起看影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "线路数组": "sb-ico-player ico-Azhan\">&&</li>",
+            "分类url": "https://www.cpldq.com/cptype/{cateId}-{catePg}.html",
+            "分类": "短剧$30#电视剧$2#国产剧$13#香港剧$14#台湾剧$32#韩剧$16#日剧$33#欧美剧$15#电影$1#动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12#动漫$4#综艺$3"
+        }
+    }, {
+        "key": "奇趣影视",
+        "name": "奇趣影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "分类url": "https://www.qqutv.com/qqys/{cateId}/area/{area}/page/{catePg}/year/{year}.html;;d0",
+            "分类": "电视剧$dianshiji#电影$dianying#动漫$dongmna#综艺$zongyi"
+        }
+    }, {
+        "key": "青苹果影视",
+        "name": "青苹果影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "简介": "小林子为您剧情介绍: +comment_list\">&&</ul>",
+            "线路数组": "tab_con_playlist&&</li>",
+            "分类url": "https://www.isoitc.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "短剧$39#电视剧$2#电影$1#动漫$4#动画片$35#综艺$3"
+        }
+    }, {
+        "key": "奥特影视",
+        "name": "奥特影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "简介": "小林子为您剧情介绍: +<p>◎影片简介: </p>&&</div>",
+            "分类url": "https://auete.pro/{cateId}/{class}/index{catePg}.html[https://auete.pro/{cateId}/{class}/index.html]",
+            "筛选": "1",
+            "剧情": "动作片$dzp#喜剧片$xjp#爱情片$aqp#科幻片$khp#恐怖片$kbp#剧情片$jqp#战争片$zzp#惊悚片$jsp||香港剧$tvbgj#国产剧$neidi#台湾剧$taiju#欧美剧$oumei#日剧$riju#韩剧$hanju#网剧$wangju#泰剧$yataiju||大陆综艺$guozong#日韩综艺$hanzong#欧美综艺$meizong||国产动漫$guoman#日本动漫$riman#欧美动漫$meiman$动画$donghua||记录片$Jlp#经典片$Jdp#经典剧$Jdj#网大电影$wlp#国产老电影$laodianying",
+            "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita"
+        }
+    },
+	
+	  {
+        "key": "火狼影视",
+        "name": "火狼影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "图片": "data-src=\"&&\"",
+            "副标题": "list-remarks\">&&</span>",
+            "线路数组": "play-btns paxs-5px col-xs4 col-sm3 col-md2\">&&</li>",
+            "播放数组": "play-item pnmd-5px&&</ul>",
+            "分类url": "https://www.huolang.pro/zhao/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "电视剧$2#电影$1#动漫$3#综艺$4#午夜$5"
+        }
+    }, {
+        "key": "吉吉影视",
+        "name": "吉吉影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "分类url": "https://www.jnyxgjg.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "短剧$40#电视剧$2#电影$1#动漫$4#综艺$3"
+        }
+    }, {
+        "key": "麻花观影",
+        "name": "麻花观影",
+        "type": 3,
+        "api": "csp_XBPQ",
+        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "简介": "white-space: initial;\">&&</p></div>",
+            "数组": "fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2\">&&</li>",
+            "图片": "data-original=\"&&\"",
+            "标题": "fed-visible fed-part-eone\" href=*>&&</a>",
+            "副标题": "fed-text-white fed-text-center\">&&</span>",
+            "线路数组": "fed-btns-info fed-rims-info fed-part-eone&&</a>",
+            "线路标题": ">&&<[不包含:腾讯#奇艺]",
+            "分类url": "https://www.mahuadyw.net/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+            "分类": "国产剧$guochanju#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman"
+        }
+    }, {
+        "key": "农民观影",
+        "name": "农民观影",
+        "type": 3,
+        "api": "csp_XBPQ",
+        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "简介": "小林子为您剧情介绍:+style=\"display: none;\">&&</span>",
+            "副标题": "pic-text text-right\">&&</span>",
+            "分类url": "https://www.huamujx.com/vodtype/{cateId}-{catePg}.html",
+            "分类": "短剧$41#电视剧$2#电影$1#动漫$4#综艺$3"
+        }
+    }, {
+        "key": "暖影院",
+        "name": "暖影院",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "副标题": "hl-lc-1 remarks\">*&nbsp;|&nbsp;&&</span>",
+            "分类url": "https://www.nuantv.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}/",
+            "分类": "国产剧$lj#电视剧$dsj#电影$dy#动漫$dm"
+        }
+    }, {
+        "key": "爱家影视",
+        "name": "爱家影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "线路数组": "<a href=\"javascript:void(0);\"&&</a>",
+            "线路标题": "</i>&nbsp;&&</a>",
+            "播放数组": "content_playlist list_scroll clearfix sort-list hide&&</ul>",
+            "分类url": "http://m.eajyy.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "短剧$53#国产剧$9#电视剧$18#电影$17#动漫$48#综艺$20#经典$16"
+        }
+    },  {
+        "key": "一起看",
+        "name": "一起看",
+        "type": 3,
+        "api": "csp_XBPQ",
+        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "简介": "小林子为您剧情介绍: +col-pd text-collapse content\">&&</div>",
+            "副标题": "pic-text text-right\">&&</span>",
+            "线路数组": "nofollow\" href=\"#playlist&&</a>",
+            "播放数组": "tgb1119 myui-content__list sort-list clearfix\"&&</ul>",
+            "分类url": "http://www.ruguojiaoyu.com/type/{cateId}-{catePg}.html;;d1",
+            "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
+            "分类标题": ">&&</a>",
+            "分类ID": "/type/&&.html"
+        }
+    }, {
+        "key": "大师兄",
+        "name": "大师兄影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "分类url": "https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
+        }
+    }, {
+        "key": "卫影视",
+        "name": "卫影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "线路数组": "#playlist&&</li>",
+            "线路标题": ">&&</a>",
+            "播放数组": "myui-content__list sort-list&&</ul>",
+            "播放列表": "<a&&</a>",
+            "播放标题": ">&&<",
+            "跳转播放链接": "var now=\"&&\"",
+            "分类url": "https://wzznl.buzz/search.php?page={catePg}&searchtype=5&tid={cateId}&area={area}&year={year}",
+            "简介": "小林子为您剧情介绍: +剧情介绍</h3>&&<div class=\"myui-panel myui-panel-bg clearfix",
+            "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
+            "分类标题": ">&&</a>",
+            "分类ID": "/list/?&&.html"
+        }
+    }, {
+        "key": "vs影视",
+        "name": "vs影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        "ext": {
+            "分类url": "https://www.nxgqmy.com/ybsitp/{cateId}-{catePg}.html",
+            "线路数组": "#playlist&&</li>",
+            "播放数组": "myui-content__list sort-list&&</ul>",
+            "播放列表": "<a&&</a>",
+            "播放标题": ">&&<[不包含:APP秒播]",
+            "跳转播放链接": "src=\"https://jiexi.ddmz6.com/api/publicApi.php?url=&&\"",
+            "简介": "小林子祝您观影愉快",
+            "分类数组": "tab_item\">&&</li>",
+            "分类标题": ">&&</a>",
+            "分类ID": "/ybsisw/&&-----------.html"
+        }
+    }, {
+        "key": "热播之家",
+        "name": "热播影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+      
+        "ext": {
+            "分类": "电影$1#电视剧$2#动漫$4#综艺$5",
+            "分类url": "https://rebozj.pro/type/{cateId}.html"
+        }
+    }, {
+        "key": "csp_hmhd",
+        "name": "河马影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       
+        "ext": {
+            "分类url": "https://www.hemahd.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
+            "分类": "电影&电视剧&动漫&综艺",
+            "分类值": "1&2&3&4"
+        }
+    }, {
+        "key": "csp_mgtva",
+        "name": "木瓜影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+       
+        "ext": {
+            "分类url": "https://www.muguatva.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+            "分类": "电影&电视剧&综艺&动漫",
+            "分类值": "dianying&lianxuju&zongyi&dongman"
+        }
+    },  {
+        "key": "bkyy",
+        "name": "布卡影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+      
+        "ext": {
+            "线路数组": "#ewave-playlist&&</li>",
+            "分类url": "https://www.gtrgt.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$21#伦理$23"
+        }
+    },  {
+        "key": "快看观影",
+        "name": "快看观影",
+        "type": 3,
+        "api": "csp_XBPQ",
+       
+        "ext": {
+            "简介": "小林子为您剧情介绍: +col-pd text-collapse content\">&&</div>",
+            "分类url": "http://www.chengjuda.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+        }
+    }, {
+        "key": "酷狗",
+        "name": "酷狗",
+        "type": 3,
+        "api": "csp_Kugou",
+        "searchable": 1,
+        "changeable": 0,
+        "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/pg.jar"
+    }, {
+        "key": "飞鱼影院",
+        "name": "飞鱼影院",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "ext": {
+            "分类url": "https://www.fydy8.com/index.php?m=vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+        }
+       }, 
+		
+		
+		
+		{
             "key": "七味影院",
             "name": "七味┃影院",
             "type": 3,
             "api": "csp_XBPQ",
-           "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+           
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
