@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar",
+	"spider": "./xyqxbpq.jar",
 	"sites": [
 		
 	
@@ -13,7 +13,8 @@
 		{"key": "GimyTV","name": "💕GimyTV","type": 3,
          "searchable": 1,"quickSearch": 1,"changeable": 1,
          "filterable": 0,"timeout": 60,"api": "csp_XBPQ",
-         "jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
+		// "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+         //"jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
          "ext": {
           "主页url": "https://gimy.tv/",
           "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
@@ -56,7 +57,7 @@
 		{
 			"key": "XBPQ_OKTV",
 			"name": "🌤OKTV|XB","type": 3,
-			"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+			//"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
 			"api": "csp_XBPQ","searchable": 1,
 			"quickSearch": 1,"filterable": 1,
 			"ext": {
