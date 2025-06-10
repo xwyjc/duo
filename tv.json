@@ -221,6 +221,37 @@
           "分类": "电影$dianying#电视剧$lianxuju#短剧$duanju#动漫$dongman#综艺$zongyi"
         } }, 
 		
+		
+		
+		
+		{"key": "1817影视网","name": "1817影视网",
+        "type": 3, "api": "csp_XBPQ",
+        "ext": {"数组": " <div class=\"pack-ykpack\">&&</div></div>",
+          "图片": "data-original=\"&&\"",
+          "标题": "title=\"&&\"",
+		
+          "链接": "href=\"&&\"",
+		  "简介": "description\"*content=\"&&",
+	      "导演": "导演:&&</p>",
+		  "主演": "演员：&&</p>",
+          "播放数组": "<ul class=\"content_playlist&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "div class=\"play_source_tab&&</div>",
+          "线路标题": "alt=\"&&\"",
+		 "搜索模式": "1",
+	     "搜索数组": "<li class=\"padd cf\">&&</li>",
+		 "搜索图片": "data-original=\"&&\"",
+		 "搜索标题": "title=\"&&\"",
+		 "搜索链接": "href=\"&&\"",
+		
+          "搜索url":"https://sn1817.com/vodsearch/-------------.html?wd={wd}",
+		  "搜索后缀":"/voddetail/",
+          "分类url": "https://sn1817.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+          "分类": "电影$1#电视剧$2#动漫$3#综艺$4#番剧$66"
+        } }, 
+		
 	
 	 {
         "key": "奥特影视",
