@@ -182,28 +182,38 @@
 			}
 		},
 		
-		{
-        "key": "一起看影视",
-        "name": "一起看影视",
+		{ "key": "一起看影视", "name": "📺一起看影视📺",
         "type": 3,
         "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
         "ext": {
-            "线路数组": "sb-ico-player ico-Azhan\">&&</li>",
-            "分类url": "https://www.cpldq.com/cptype/{cateId}-{catePg}.html",
-            "分类": "短剧$30#电视剧$2#国产剧$13#香港剧$14#台湾剧$32#韩剧$16#日剧$33#欧美剧$15#电影$1#动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12#动漫$4#综艺$3"
-        }
-    }, {
-        "key": "奇趣影视",
-        "name": "奇趣影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
-            "分类url": "https://www.qqutv.com/qqys/{cateId}/area/{area}/page/{catePg}/year/{year}.html;;d0",
-            "分类": "电视剧$dianshiji#电影$dianying#动漫$dongmna#综艺$zongyi"
-        }
-    }, {
+        "线路数组": "sb-ico-player ico-Azhan\">&&</li>",
+        "分类url": "https://www.cpldq.com/cptype/{cateId}-{catePg}.html",
+        "分类": "短剧$30#电视剧$2#国产剧$13#香港剧$14#台湾剧$32#韩剧$16#日剧$33#欧美剧$15#电影$1#动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12#动漫$4#综艺$3"
+        } },
+		
+
+	{"key": "鬼片之家","name": "🍎鬼片之家🍎",
+        "type": 3, "api": "csp_XBPQ",
+        "ext": {"数组": "<li class=\"mo-paxs-5px&&</li>",
+          "图片": "data-original=\"&&\"",
+          "标题": "<a class=\"mo-situ-name mo-fsxs-14px mo-coxs-center mo-comd-left mo-wrap-arow\">&&</a>",
+          "链接": "href=\"&&\"",
+		  "简介": "description\"*content=\"&&",
+	      "导演": "导演:&nbsp;&&</li>",
+		  "主演": "主演:&nbsp;&&</li>",
+          "播放数组": "<ul class=\"mo-movs-item&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "跳转播放链接":"var player =*source\":\"&&\"",
+          "线路数组": "href=\"javascript:;\">&&/a>",
+          "线路标题": "</i>&&<",
+          "分类url": "https://www.guipianzhijia.com/show/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html",",
+          "分类": "林正英$22#电视剧$2#电影$1#动漫$4#综艺$3"
+        } }, 
+		
+	
+	{
         "key": "青苹果影视",
         "name": "青苹果影视",
         "type": 3,
