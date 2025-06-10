@@ -226,7 +226,7 @@
 		
 		{"key": "1817影视网","name": "1817影视网",
         "type": 3, "api": "csp_XBPQ",
-        "ext": {"数组": " <div class=\"pack-ykpack\">&&</div></div>",
+        "ext": {"数组": " <div class=\"pack-ykpack\">&&</a>",
           "图片": "data-original=\"&&\"",
           "标题": "title=\"&&\"",
 		
