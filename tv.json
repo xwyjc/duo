@@ -101,7 +101,7 @@
 		
 		
 	   {"key": "随客影视","name": "🎥｜随客｜影视", "type": 3,
-      // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+     
        "api": "csp_XBPQ",
        "ext": {
           "请求头": "User-Agent$MOBILE_UA",
@@ -192,53 +192,47 @@
         } },
 		
 
-	{"key": "鬼片之家","name": "🍎鬼片之家🍎",
+	  {"key": "魔气影视-九州影院-全能影视-天天影院","name": "🍎魔气影视🍎",
         "type": 3, "api": "csp_XBPQ",
-        "ext": {"数组": "<li class=\"mo-paxs-5px mo-pamd-10px mo-cols-info mo-cols-xs4 mo-cols-sm3 mo-cols-lg2\">&&</li>",
+        "ext": {"数组": "<div class=\"stui-vodlist__box stui-vodlist__bg\">&&</li>",
           "图片": "data-original=\"&&\"",
-          "标题": "<a class=\"mo-situ-name mo-fsxs-14px mo-coxs-center mo-comd-left mo-wrap-arow\"*>&&</a>",
+          "标题": "title=\"&&\"",
+		  "副标题": "pic-text text-right\">&&</span>",
           "链接": "href=\"&&\"",
 		  "简介": "description\"*content=\"&&",
-	      "导演": "导演:&nbsp;&&</li>",
-		  "主演": "主演:&nbsp;&&</li>",
-          "播放数组": "<ul class=\"mo-movs-item&&</ul>",
+	      "导演": "导演:target=\"_blank\">&&</a>",
+		  "年份": "年份:target=\"_blank\">&&</a>",
+		  "地区": "导演:target=\"_blank\">&&</a>",
+		  "更新时间": "更新：&&</p>",
+		  "主演": "<p class=\"text text-overflow text-muted hidden-xs\">&&</p>",
+          "播放数组": "<ul class=\"stui-content__playlist&&</ul>",
           "播放列表": "<a&&a>",
           "播放链接": "href=\"&&\"",
           "播放标题": ">&&</",
-          "跳转播放链接":"var player =*source\":\"&&\"",
-          "线路数组": "href=\"javascript:;\">&&/a>",
-          "线路标题": "</i>&&<",
-          "分类url": "https://www.guipianzhijia.com/show/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html",
-          "分类": "林正英$22#电视剧$2#电影$1#动漫$4#综艺$3"
+          "线路数组": "<h3&&h3>	",
+          "线路标题": "class=\"title\">&&</",
+		  "搜索模式":"1",
+           "搜索url":"https://moqitv.ink/index.php/vod/search.html?wd={wd}&submit=",
+          "分类url": "https://moqitv.ink/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+          "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3#动作片$6#喜剧片$7#爱情片$8#科幻片$9#剧情片$11#战争片$12#记录片$20#理论剧$24#国产剧$13#港台剧$21#日韩剧$22#欧美剧$23#泰国剧$28"
         } }, 
 		
 	
-	{
-        "key": "青苹果影视",
-        "name": "青苹果影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
-            "简介": "小林子为您剧情介绍: +comment_list\">&&</ul>",
-            "线路数组": "tab_con_playlist&&</li>",
-            "分类url": "https://www.isoitc.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-            "分类": "短剧$39#电视剧$2#电影$1#动漫$4#动画片$35#综艺$3"
-        }
-    }, {
+	 {
         "key": "奥特影视",
-        "name": "奥特影视",
+        "name": "💗奥特影视💗",
         "type": 3,
         "api": "csp_XBPQ",
         //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
+        "ext": {"发布页": "https://v.auete.com/",
             "简介": "小林子为您剧情介绍: +<p>◎影片简介: </p>&&</div>",
-            "分类url": "https://auete.pro/{cateId}/{class}/index{catePg}.html[https://auete.pro/{cateId}/{class}/index.html]",
+            "分类url": "https://auete.cc/{cateId}/{class}/index{catePg}.html[https://auete.cc/{cateId}/{class}/index.html]",
             "筛选": "1",
             "剧情": "动作片$dzp#喜剧片$xjp#爱情片$aqp#科幻片$khp#恐怖片$kbp#剧情片$jqp#战争片$zzp#惊悚片$jsp||香港剧$tvbgj#国产剧$neidi#台湾剧$taiju#欧美剧$oumei#日剧$riju#韩剧$hanju#网剧$wangju#泰剧$yataiju||大陆综艺$guozong#日韩综艺$hanzong#欧美综艺$meizong||国产动漫$guoman#日本动漫$riman#欧美动漫$meiman$动画$donghua||记录片$Jlp#经典片$Jdp#经典剧$Jdj#网大电影$wlp#国产老电影$laodianying",
             "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita"
-        }
-    },
+        } },
+		
+		
 	
 	  {
         "key": "火狼影视",
