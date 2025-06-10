@@ -194,9 +194,9 @@
 
 	{"key": "鬼片之家","name": "🍎鬼片之家🍎",
         "type": 3, "api": "csp_XBPQ",
-        "ext": {"数组": "<li class=\"mo-paxs-5px&&</li>",
+        "ext": {"数组": "<li class=\"mo-paxs-5px mo-pamd-10px mo-cols-info mo-cols-xs4 mo-cols-sm3 mo-cols-lg2\">&&</li>",
           "图片": "data-original=\"&&\"",
-          "标题": "<a class=\"mo-situ-name mo-fsxs-14px mo-coxs-center mo-comd-left mo-wrap-arow\">&&</a>",
+          "标题": "<a class=\"mo-situ-name mo-fsxs-14px mo-coxs-center mo-comd-left mo-wrap-arow\"*>&&</a>",
           "链接": "href=\"&&\"",
 		  "简介": "description\"*content=\"&&",
 	      "导演": "导演:&nbsp;&&</li>",
