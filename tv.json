@@ -212,7 +212,12 @@
           "播放标题": ">&&</",
           "线路数组": "<a href=\"javascript:void(0);\"&&</a>",
           "线路标题": "alt=\"&&\"",
-		  "搜索模式":"1",
+		 "搜索模式": "1",
+	     "搜索数组": "<li class=\"searchlist_item\">&&</li>",
+		 "搜索图片": "style=\"background-image: url('&&')\"",
+		 "搜索标题": "title=\"&&\"",
+		 "搜索链接": "href=\"&&\"",
+		 "搜索副标题": "pic_text text_right\">&&</span>",
            "搜索url":"https://kshaodj.com/vod/search.html?wd={wd}",
           "分类url": "https://kshaodj.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
           "分类": "电影$dianying#电视剧$lianxuju#短剧$duanju#动漫$dongman#综艺$zongyi"
