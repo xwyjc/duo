@@ -193,7 +193,7 @@
 		
 
 	  {"key": "魔气影视-九州影院-全能影视-天天影院","name": "🍎魔气影视🍎",
-        "type": 3, "api": "csp_XBPQ",
+        "type": 3, "api": "csp_XBPQ", "jar": "./XBPQ.jar",
         "ext": {"数组": "<div class=\"stui-vodlist__box stui-vodlist__bg\">&&</li>",
           "图片": "data-original=\"&&\"",
           "标题": "title=\"&&\"",
