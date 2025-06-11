@@ -337,35 +337,52 @@
             "分类url": "https://www.mahuadyw.net/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
             "分类": "国产剧$guochanju#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman"
         }
-    }, {
-        "key": "农民观影",
-        "name": "农民观影",
+    },
+
+    
+	{
+        "key": "农民影视",
+        "name": "🐶农民影视🐶",
         "type": 3,
         "api": "csp_XBPQ",
-        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
-            "简介": "小林子为您剧情介绍:+style=\"display: none;\">&&</span>",
-            "副标题": "pic-text text-right\">&&</span>",
-            "分类url": "https://www.huamujx.com/vodtype/{cateId}-{catePg}.html",
-            "分类": "短剧$41#电视剧$2#电影$1#动漫$4#综艺$3"
+        
+        "ext": {"数组":"stui-vodlist__box\">&&</a>",
+	 "图片": "data-original=\"&&\"",
+     "标题":"title=\"&&\"",
+    
+	"线路数组": "<a href=\"#playlist&&</ul>",
+	"线路标题": ">&&</a>",
+	"播放数组": "<ul class=\"stui-content__playlist clearfix\">&&</ul>",
+    "播放列表": "<a&&a>",
+	"播放标题": ">&&</",
+	"播放链接": "href=\"&&\"",
+    "搜索模式":"1",
+
+     "分类url": "https://www.nmdvd.cc/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+     "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$duanju"
         }
-    }, {
+    },
+
+
+	{
         "key": "暖影院",
-        "name": "暖影院",
+        "name": "☀️暖影院☀️",
         "type": 3,
         "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+      
         "ext": {
             "副标题": "hl-lc-1 remarks\">*&nbsp;|&nbsp;&&</span>",
             "分类url": "https://www.nuantv.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}/",
             "分类": "国产剧$lj#电视剧$dsj#电影$dy#动漫$dm"
         }
-    }, {
+    }, 
+	
+	{
         "key": "爱家影视",
-        "name": "爱家影视",
+        "name": "🌧️爱家影视🌧️",
         "type": 3,
         "api": "csp_XBPQ",
-        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        
         "ext": {
             "线路数组": "<a href=\"javascript:void(0);\"&&</a>",
             "线路标题": "</i>&nbsp;&&</a>",
@@ -373,23 +390,37 @@
             "分类url": "http://m.eajyy.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html",
             "分类": "短剧$53#国产剧$9#电视剧$18#电影$17#动漫$48#综艺$20#经典$16"
         }
-    },  {
-        "key": "一起看",
-        "name": "一起看",
+    }, 
+
+
+	{
+        "key": "八号影视",
+        "name": "八号影视🎬",
         "type": 3,
         "api": "csp_XBPQ",
-        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
-            "简介": "小林子为您剧情介绍: +col-pd text-collapse content\">&&</div>",
-            "副标题": "pic-text text-right\">&&</span>",
-            "线路数组": "nofollow\" href=\"#playlist&&</a>",
-            "播放数组": "tgb1119 myui-content__list sort-list clearfix\"&&</ul>",
-            "分类url": "http://www.ruguojiaoyu.com/type/{cateId}-{catePg}.html;;d1",
-            "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
-            "分类标题": ">&&</a>",
-            "分类ID": "/type/&&.html"
+       
+        "ext": {"数组":" <div class=\"myui-vodbox-content\">&&</a>",
+	 "图片": "src=\"&&\"",
+     "标题":" <div class=\"title\">&&</div>",
+    
+     "上映时间":" <div class=\"info-time\">&&</div>", 
+	  "主演":" <div class=\"info-roles\">&&</div>",
+     "简介":" 小林子为您剧情介绍: +info-intro\">&&</div>",
+	  "线路数组": "<a href=\"#playlist&&</ul>",
+	  "线路标题": ">&&</a>",
+	  "播放数组": "<div id=\"playlist&&</div>",
+       "播放列表": "<a&&a>",
+	  "播放标题": ">&&</",
+	  "播放链接": "href=\"&&\"",
+      "搜索模式":"1",
+	   "搜索url": "https://www.bahaotv.com/so.html?wd={wd}",
+      "分类url": "https://www.bahaotv.com/vodshow/{cateId}--{by}------{catePg}---.html",
+              "分类": "电影$movie#电视剧$tvseries#动漫$anime"
         }
-    }, {
+    },
+
+
+	{
         "key": "大师兄",
         "name": "大师兄影视",
         "type": 3,
@@ -399,7 +430,9 @@
             "分类url": "https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
             "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
         }
-    }, {
+    }, 
+	
+	{
         "key": "卫影视",
         "name": "卫影视",
         "type": 3,
@@ -418,7 +451,9 @@
             "分类标题": ">&&</a>",
             "分类ID": "/list/?&&.html"
         }
-    }, {
+    }, 
+	
+	{
         "key": "vs影视",
         "name": "vs影视",
         "type": 3,
@@ -436,7 +471,9 @@
             "分类标题": ">&&</a>",
             "分类ID": "/ybsisw/&&-----------.html"
         }
-    }, {
+    },
+
+	{
         "key": "热播之家",
         "name": "热播影视",
         "type": 3,
@@ -446,7 +483,10 @@
             "分类": "电影$1#电视剧$2#动漫$4#综艺$5",
             "分类url": "https://rebozj.pro/type/{cateId}.html"
         }
-    }, {
+    }, 
+	
+	
+	{
         "key": "csp_hmhd",
         "name": "河马影视",
         "type": 3,
@@ -457,7 +497,9 @@
             "分类": "电影&电视剧&动漫&综艺",
             "分类值": "1&2&3&4"
         }
-    }, {
+    }, 
+	
+	{
         "key": "csp_mgtva",
         "name": "木瓜影视",
         "type": 3,
@@ -468,7 +510,9 @@
             "分类": "电影&电视剧&综艺&动漫",
             "分类值": "dianying&lianxuju&zongyi&dongman"
         }
-    },  {
+    }, 
+
+	{
         "key": "bkyy",
         "name": "布卡影视",
         "type": 3,
@@ -479,7 +523,9 @@
             "分类url": "https://www.gtrgt.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$21#伦理$23"
         }
-    },  {
+    }, 
+
+	{
         "key": "快看观影",
         "name": "快看观影",
         "type": 3,
@@ -490,15 +536,12 @@
             "分类url": "http://www.chengjuda.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
         }
-    }, {
-        "key": "酷狗",
-        "name": "酷狗",
-        "type": 3,
-        "api": "csp_Kugou",
-        "searchable": 1,
-        "changeable": 0,
-        "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/pg.jar"
-    }, {
+    }, 
+	
+
+	
+	
+	{
         "key": "飞鱼影院",
         "name": "飞鱼影院",
         "type": 3,
