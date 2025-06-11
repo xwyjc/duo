@@ -258,7 +258,7 @@
         "name": "💗奥特影视💗",
         "type": 3,
         "api": "csp_XBPQ",
-        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+        
         "ext": {"发布页": "https://v.auete.com/",
             "简介": "小林子为您剧情介绍: +<p>◎影片简介: </p>&&</div>",
             "分类url": "https://auete.cc/{cateId}/{class}/index{catePg}.html[https://auete.cc/{cateId}/{class}/index.html]",
@@ -270,35 +270,62 @@
 		
 	
 	  {
-        "key": "火狼影视",
-        "name": "火狼影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
-            "图片": "data-src=\"&&\"",
-            "副标题": "list-remarks\">&&</span>",
-            "线路数组": "play-btns paxs-5px col-xs4 col-sm3 col-md2\">&&</li>",
-            "播放数组": "play-item pnmd-5px&&</ul>",
-            "分类url": "https://www.huolang.pro/zhao/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-            "分类": "电视剧$2#电影$1#动漫$3#综艺$4#午夜$5"
-        }
-    }, {
-        "key": "吉吉影视",
-        "name": "吉吉影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
-        "ext": {
-            "分类url": "https://www.jnyxgjg.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "key": "永乐视频", "name": "🍉永乐视频🍉",
+        "type": 3,"api": "csp_XBPQ",
+        "ext": { "数组":"<a&&</div></div></a>",
+		     "标题":"title=\"&&\"",
+            "图片": "data-original=\"&&\"",
+			 "链接": "href=\"&&\"",
+            "副标题": "module-item-note\">&&</div>",
+            "线路数组":"data-dropdown-value=&&</div>",
+	      "线路标题":"<span>&&</small>",
+	      "播放数组":"<div class=\"module-play-list-content&&</div>",
+	      "播放标题":"<span>&&</span>",
+		  "播放列表":"<a&&</a>",
+		   "搜索模式": "1", 
+	     "搜索url": "https://ylsp.tv/vodsearch/-------------/?wd={wd}",
+          "搜索数组": "module-main module-page\"&&</a",
+          "搜索图片": "data-original=\"&&\"",
+          "搜索标题": "alt=\"&&\"",
+          "搜索链接": "href=\"&&\"",
+		   "搜索后缀":"/voddetail/",
+            "分类url": "https://ylsp.tv/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}/",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+        }},
+
+
+	{"key": "飞飞影视", "name": "✈️飞飞影视✈️",
+        "type": 3,"api": "csp_XBPQ",
+   
+        "ext": {"数组":"<a&&</div></div></a>",
+		     "标题":"title=\"&&\"",
+            "图片": "data-original=\"&&\"",
+			 "链接": "href=\"&&\"",
+            "副标题": "module-item-note\">&&</div>",
+            "线路数组":"data-dropdown-value=&&</div>",
+	      "线路标题":"<span>&&</small>",
+	      "播放数组":"<div class=\"module-play-list-content&&</div>",
+	      "播放标题":"<span>&&</span>",
+		  "播放列表":"<a&&</a>",
+		   "搜索模式": "1", 
+	     "搜索url": "https://www.ffys.me/vodsearch.html?wd={wd}",
+          "搜索数组": "module-main module-page\"&&</a",
+          "搜索图片": "data-original=\"&&\"",
+          "搜索标题": "alt=\"&&\"",
+          "搜索链接": "href=\"&&\"",
+		   "搜索后缀":"/video/",
+           "分类url": "https://www.ffys.me/vodshow/area/{area}/by/{by}//class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
             "分类": "短剧$40#电视剧$2#电影$1#动漫$4#综艺$3"
         }
-    }, {
+    },
+
+
+	{
         "key": "麻花观影",
         "name": "麻花观影",
         "type": 3,
         "api": "csp_XBPQ",
-        //"jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+       
         "ext": {
             "简介": "white-space: initial;\">&&</p></div>",
             "数组": "fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2\">&&</li>",
