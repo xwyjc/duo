@@ -450,32 +450,7 @@
     },
 
 
-	{
-        "key": "大师兄",
-        "name": "👬大师兄影视👬",
-        "type": 3,
-        "api": "csp_XBPQ",
-       
-        "ext": {"数组":"<a&&</div></div></a>",
-		     "标题":"title=\"&&\"",
-            "图片": "data-original=\"&&\"",
-			 "链接": "href=\"&&\"",
-            "副标题": "module-item-note\">&&</div>",
-            
-	      "播放数组":"<div class=\"module-play-list-content&&</div>",
-	      "播放标题":"<span>&&</span>",
-		  "播放列表":"<a&&</a>",
-		   "搜索模式": "1", 
-	     
-          "搜索数组": "module-main module-page\"&&</a",
-          "搜索图片": "data-original=\"&&\"",
-          "搜索标题": "alt=\"&&\"",
-          "搜索链接": "href=\"&&\"",
-		   "搜索后缀":"/voddetail/",
-            "分类url": "https://www.dsxys.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-            "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
-        }
-    }, 
+	
 	
 	
 	{
@@ -526,14 +501,24 @@
     },
 
 	{
-        "key": "热播之家",
-        "name": "热播影视",
+        "key": "APP影院",
+        "name": "APP影院",
         "type": 3,
         "api": "csp_XBPQ",
       
-        "ext": {
-            "分类": "电影$1#电视剧$2#动漫$4#综艺$5",
-            "分类url": "https://rebozj.pro/type/{cateId}.html"
+        "ext": {	"数组": "stui-vodlist__item\"&&</li>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"副标题": "text-right\">&&</span>",
+				"链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": " <ul class=\"t-ul\">&&</ul>",
+				"线路标题": ">&&</span>",
+            "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+            "分类url": "https://www.appmovie.art/index.php/vod/show/area/{area}/by/time/class/{class}/id/{cateId}/page/{catePg}.html"
         }
     }, 
 	
