@@ -445,11 +445,11 @@
 				"图片": "data-original=\"&&\"",
 				"副标题": "text-right\">&&</span>",
 				"链接": "href=\"&&\"",
-				"播放数组": "list sort-list clearfix&&</ul>",
+				"播放数组": "<ul class=\"myui-content__list&&</ul>",
 				"播放列表": "<a&&a>",
 				"播放链接": "href=\"&&\"",
 				"播放标题": "第+>&&</+集",
-				"线路数组": "href=\"\\#playlist&&li>",
+				"线路数组": "href=\"#playlist&&</li>",
 				"线路标题": "tab\">&&</a>",
 				"跳转播放链接": "var player_*\"url\":\"&&\"",
             "分类url": "https://gv.duboku.io/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
@@ -465,7 +465,7 @@
         "name": "VS影视",
         "type": 3,
         "api": "csp_XBPQ",
-       // "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar",
+      
         "ext": {
             "分类url": "https://www.nxgqmy.com/ybsitp/{cateId}-{catePg}.html",
             "线路数组": "#playlist&&</li>",
