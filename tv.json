@@ -650,7 +650,7 @@
 				"播放标题": ">&&</",
 				"线路名二次截取": "class=\"hl-plays-from hl-tabs&&</div>",
 	            "线路名截取数组": "<a&&</a>",
-	            "线路名标题": "alt=\">&&\"",
+	            "线路名标题": "alt=\"&&\"",
 				  "搜索模式": "1",
               "搜索url": "https://123kubo.tv/search.html?wd={wd}&submit=",
 				"分类url": "https://123kubo.tv/type/{cateId}-{catePg}.html",
@@ -661,14 +661,9 @@
 		},
 		
 		
-		{
-			"key": "csp_XBPQ_CY影视",
-			"name": "🌤┃CY影视┃XB",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
+		{"key": "csp_XBPQ_CY影视","name": "🌤┃CY影视┃XB",
+			"type": 3,"api": "csp_XBPQ",
+			"searchable": 1,"quickSearch": 1,"filterable": 0,
 			"ext": {
 				"分类url": "http://movie.yzcyj.net/index.php/vod/show/id/{cateId}/page/{catePg}.html",
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$32"
