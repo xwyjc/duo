@@ -533,9 +533,9 @@
     }, 
   
 	
-	  {"key": "快点播","name": "🎥快点播🎥",
-        "type": 3, "api": "csp_XBPQ",
-        "ext": {"数组": "stui-vodlist__box\"&&</li>",
+	   {"key": "快点播","name": "🎥快点播🎥",
+         "type": 3, "api": "csp_XBPQ",
+          "ext": {"数组": "stui-vodlist__box\"&&</li>",
 			"标题": "title=\"&&\"",
 			"图片": "data-original=\"&&\"",
 			"副标题": "text-right\">&&</span>",
@@ -546,8 +546,9 @@
 			"播放标题": ">&&</",
 			"线路数组": "<div class=\"stui-vodlist__head\">&&</div>",
 			"线路标题": "<h3>&&</h3>",
+			 "跳转播放链接": "var player_*\"url\":\"&&\"",
             "简介": "小林子为您剧情介绍: +detail-sketch\">&&</span>",
-            "分类url": "https://quickvod.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+            "分类url": "https://quickvod.cc/type/{cateId}-{catePg}.html",
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
         }}, 
 	
