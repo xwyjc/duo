@@ -559,17 +559,24 @@
      "播放链接": "href=\"&&\""
         }
     }, 
-
+  
 	
-	{
-        "key": "快看观影",
-        "name": "快看观影",
-        "type": 3,
-        "api": "csp_XBPQ",
-       
-        "ext": {
-            "简介": "小林子为您剧情介绍: +col-pd text-collapse content\">&&</div>",
-            "分类url": "http://www.chengjuda.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+	{ "key": "快点播","name": "🎥快点播🎥",
+        "type": 3, "api": "csp_XBPQ",
+        "ext": {"数组": "stui-vodlist__box\"&&</li>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"副标题": "text-right\">&&</span>",
+				"链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": " <h3&&h3>",
+				"线路标题": ">&&</",
+				
+            "简介": "小林子为您剧情介绍: +detail-sketch\">&&</span>",
+            "分类url": "https://quickvod.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
         }
     }, 
@@ -577,28 +584,30 @@
 
 	
 	
-	{
-        "key": "飞鱼影院",
-        "name": "飞鱼影院",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "ext": {
-            "分类url": "https://www.fydy8.com/index.php?m=vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
-            "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-        }
-       }, 
+	{ "key": "剧爸爸","name": "👨剧爸爸👨",
+        "type": 3, "api": "csp_XBPQ",
+        "ext": {"数组": "ewave-vodlist__box\"&&</li>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"副标题": "text-right\">&&</span>",
+				"链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"ewave-content__playlist&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": "<a href=\"#playlist&&</li>",
+				"线路标题": ">&&</a>",
+				  "搜索模式": "1",
+           "搜索url": "https://www.jubaba.cc/vodsearch/-------------.html?wd={wd}",
+           "分类url": "https://www.jubaba.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+         "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+        } }, 
 		
 		
 		
-		{
-            "key": "七味影院",
-            "name": "七味┃影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-           
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
+		{"key": "七味影院","name": "🧿七味┃影院🧿",
+            "type": 3,"api": "csp_XBPQ",
+            "searchable": 1,"quickSearch": 1,"filterable": 1,
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -623,16 +632,30 @@
         },
 		
 		{
-			"key": "csp_XBPQ_iysdq",
-			"name": "🧿影院┃xb",
+			"key": "123kubo",
+			"name": "🧿123kubo┃XB🧿",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": {
-				"分类url": "https://www.iysdq.cc/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-				"分类": "国产剧$21#香港剧$22#台湾剧$23#韩国剧$24#日本剧$25#欧美剧$26#泰国剧$27#海外剧$28#电影$1#动漫$4#综艺$3"
+			"ext": {"数组": "  <li class=\"hl-list-item&&</li>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"副标题": "state\">&&</span>",
+				"链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"hl-plays-list&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": "href=\"javascript:void(0);\"&&</a>",
+				"线路标题": "alt=\"&&\"",
+				  "搜索模式": "1",
+           "搜索url": "https://123kubo.tv/search.html?wd={wd}&submit=",
+				"分类url": "https://123kubo.tv/type/{cateId}-{catePg}.html",
+				"分类数组": "<a&&</a>",
+             "分类标题": ">&&<",
+             "分类ID": "/type/&&.html",
 			}
 		},
 		
