@@ -655,7 +655,7 @@
 				"分类url": "https://123kubo.tv/type/{cateId}-{catePg}.html",
 				"分类数组": "<a&&</a>",
              "分类标题": ">&&<",
-             "分类ID": "/type/&&.html",
+             "分类ID": "/type/&&.html"
 			}
 		},
 		
