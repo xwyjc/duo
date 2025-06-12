@@ -259,7 +259,6 @@
         "ext": {"数组": " <div class=\"pack-ykpack\">&&</a>",
           "图片": "data-original=\"&&\"",
           "标题": "title=\"&&\"",
-		
           "链接": "href=\"&&\"",
 		  "简介": "description\"*content=\"&&",
 	      "导演": "导演:&&</p>",
@@ -275,7 +274,6 @@
 		 "搜索图片": "data-original=\"&&\"",
 		 "搜索标题": "title=\"&&\"",
 		 "搜索链接": "href=\"&&\"",
-		
           "搜索url":"https://sn1817.com/vodsearch/-------------.html?wd={wd}",
 		  "搜索后缀":"/voddetail/",
           "分类url": "https://sn1817.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
@@ -283,12 +281,8 @@
         } }, 
 		
 	
-	 {
-        "key": "奥特影视",
-        "name": "💗奥特影视💗",
-        "type": 3,
-        "api": "csp_XBPQ",
-        
+	 { "key": "奥特影视","name": "💗奥特影视💗",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {"发布页": "https://v.auete.com/",
             "简介": "小林子为您剧情介绍: +<p>◎影片简介: </p>&&</div>",
             "分类url": "https://auete.cc/{cateId}/{class}/index{catePg}.html[https://auete.cc/{cateId}/{class}/index.html]",
@@ -299,8 +293,7 @@
 		
 		
 	
-	  {
-        "key": "永乐视频", "name": "🍉永乐视频🍉",
+	  { "key": "永乐视频", "name": "🍉永乐视频🍉",
         "type": 3,"api": "csp_XBPQ",
         "ext": { "数组":"<a&&</div></div></a>",
 		     "标题":"title=\"&&\"",
@@ -326,7 +319,6 @@
 
 	{"key": "飞飞影视", "name": "✈️飞飞影视✈️",
         "type": 3,"api": "csp_XBPQ",
-   
         "ext": {"数组":"<a&&</div></div></a>",
 		     "标题":"title=\"&&\"",
             "图片": "data-original=\"&&\"",
@@ -350,12 +342,8 @@
     },
 
 
-	{
-        "key": "麻花观影",
-        "name": "麻花观影",
-        "type": 3,
-        "api": "csp_XBPQ",
-       
+	{"key": "麻花观影","name": "麻花观影",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {
             "简介": "white-space: initial;\">&&</p></div>",
             "数组": "fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2\">&&</li>",
@@ -370,16 +358,11 @@
     },
 
     
-	{
-        "key": "农民影视",
-        "name": "🐶农民影视🐶",
-        "type": 3,
-        "api": "csp_XBPQ",
-        
-        "ext": {"数组":"stui-vodlist__box\">&&</a>",
+	{"key": "农民影视","name": "🐶农民影视🐶",
+     "type": 3, "api": "csp_XBPQ",
+     "ext": {"数组":"stui-vodlist__box\">&&</a>",
 	 "图片": "data-original=\"&&\"",
      "标题":"title=\"&&\"",
-    
 	"线路数组": "<a href=\"#playlist&&</ul>",
 	"线路标题": ">&&</a>",
 	"播放数组": "<ul class=\"stui-content__playlist clearfix\">&&</ul>",
@@ -387,32 +370,23 @@
 	"播放标题": ">&&</",
 	"播放链接": "href=\"&&\"",
     "搜索模式":"1",
-
      "分类url": "https://www.nmdvd.cc/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$duanju"
         }
     },
 
 
-	{
-        "key": "暖影院",
-        "name": "☀️暖影院☀️",
-        "type": 3,
-        "api": "csp_XBPQ",
-      
+	{ "key": "暖影院","name": "☀️暖影院☀️",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {
             "副标题": "hl-lc-1 remarks\">*&nbsp;|&nbsp;&&</span>",
             "分类url": "https://www.nuantv.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}/",
             "分类": "国产剧$lj#电视剧$dsj#电影$dy#动漫$dm"
-        }
-    }, 
+        }}, 
 	
-	{
-        "key": "爱家影视",
-        "name": "🌧️爱家影视🌧️",
-        "type": 3,
-        "api": "csp_XBPQ",
-        
+	
+	{"key": "爱家影视","name": "🌧️爱家影视🌧️",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {
             "线路数组": "<a href=\"javascript:void(0);\"&&</a>",
             "线路标题": "</i>&nbsp;&&</a>",
@@ -465,7 +439,6 @@
 				"线路标题": "tab\">&&</a>",
 				"跳转播放链接": "var player_*\"url\":\"&&\"",
             "分类url": "https://gv.duboku.io/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-           
             "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
             "分类标题": ">&&</a>",
             "分类ID": "/vodtype/&&.html"
@@ -485,25 +458,24 @@
             "分类数组": "tab_item\">&&</li>",
             "分类标题": ">&&</a>",
             "分类ID": "/ybsisw/&&-----------.html"
-        }
-    },
+        }},
 
 	
-	{"key": "APP影院","name": "🪶APP影院🪶",
-        "type": 3,"api": "csp_XBPQ",
-       "ext": {"数组": "stui-vodlist__item\"&&</li>",
-				"标题": "title=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"副标题": "text-right\">&&</span>",
-				"链接": "href=\"&&\"",
-				"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</",
-				"线路数组": " <h3&&h3>",
-				"线路标题": "class=\"title\">&&</",
-				 "搜索模式":"1",
-	          "搜索url": "https://www.appmovie.art/index.php/vod/search/page/{pg}/wd/{wd}.html",
+	   {"key": "APP影院","name": "🪶APP影院🪶",
+         "type": 3,"api": "csp_XBPQ",
+        "ext": {"数组": "stui-vodlist__item\"&&</li>",
+			"标题": "title=\"&&\"",
+			"图片": "data-original=\"&&\"",
+			"副标题": "text-right\">&&</span>",
+			"链接": "href=\"&&\"",
+			"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+			"播放列表": "<a&&a>",
+			"播放链接": "href=\"&&\"",
+			"播放标题": ">&&</",
+			"线路数组": " <h3&&h3>",
+			"线路标题": "class=\"title\">&&</",
+			"搜索模式":"1",
+	         "搜索url": "https://www.appmovie.art/index.php/vod/search/page/{pg}/wd/{wd}.html",
             "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
             "分类url": "https://www.appmovie.art/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}.html"
         }
@@ -561,43 +533,41 @@
     }, 
   
 	
-	{ "key": "快点播","name": "🎥快点播🎥",
+	  {"key": "快点播","name": "🎥快点播🎥",
         "type": 3, "api": "csp_XBPQ",
         "ext": {"数组": "stui-vodlist__box\"&&</li>",
-				"标题": "title=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"副标题": "text-right\">&&</span>",
-				"链接": "href=\"&&\"",
-				"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</",
-				"线路数组": " <h3&&h3>",
-				"线路标题": ">&&</",
-				
+			"标题": "title=\"&&\"",
+			"图片": "data-original=\"&&\"",
+			"副标题": "text-right\">&&</span>",
+			"链接": "href=\"&&\"",
+			"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+			"播放列表": "<a&&a>",
+			"播放链接": "href=\"&&\"",
+			"播放标题": ">&&</",
+			"线路数组": "<ul class=\"stui-content__playlist&&</ul>",
+			"线路标题": "<h3>&&</h3>",
             "简介": "小林子为您剧情介绍: +detail-sketch\">&&</span>",
             "分类url": "https://quickvod.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-        }
-    }, 
+        }}, 
 	
 
 	
 	
-	{ "key": "剧爸爸","name": "👨剧爸爸👨",
-        "type": 3, "api": "csp_XBPQ",
-        "ext": {"数组": "ewave-vodlist__box\"&&</li>",
-				"标题": "title=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"副标题": "text-right\">&&</span>",
-				"链接": "href=\"&&\"",
-				"播放数组": "<ul class=\"ewave-content__playlist&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</",
-				"线路数组": "<a href=\"#playlist&&</li>",
-				"线路标题": ">&&</a>",
-				 "搜索模式": "1",
+	    { "key": "剧爸爸","name": "👨剧爸爸👨",
+         "type": 3, "api": "csp_XBPQ",
+         "ext": {"数组": "ewave-vodlist__box\"&&</li>",
+			"标题": "title=\"&&\"",
+			"图片": "data-original=\"&&\"",
+			"副标题": "text-right\">&&</span>",
+			"链接": "href=\"&&\"",
+			"播放数组": "<ul class=\"ewave-content__playlist&&</ul>",
+			"播放列表": "<a&&a>",
+			"播放链接": "href=\"&&\"",
+			"播放标题": ">&&</",
+			"线路数组": "<a href=\"#playlist&&</li>",
+		  "线路标题": ">&&</a>",
+		  "搜索模式": "1",
            "搜索url": "https://www.jubaba.cc/vodsearch/-------------.html?wd={wd}",
            "分类url": "https://www.jubaba.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
          "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
@@ -623,8 +593,8 @@
                 "播放链接": "href=\"&&\"",
                 "播放列表": "<a&&a>",
                 "播放标题": ">&&</",
-                "线路数组": "<ul class=\"py-tabs\">&&</ul>",
-                "线路标题": ">&&</",
+                "线路数组二次截取": "<ul class=\"py-tabs\">&&</ul>",
+                "线路标题": "<li&&</li>",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4#短剧$30"
@@ -633,7 +603,7 @@
 		
 		{
 			"key": "123kubo",
-			"name": "🧿123kubo┃XB🧿",
+			"name": "🧿123kubo┃XB🧿剧集能看",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
