@@ -423,12 +423,8 @@
     }, 
 
 
-	{
-        "key": "八号影视",
-        "name": "🎬八号影视🎬",
-        "type": 3,
-        "api": "csp_XBPQ",
-       
+	{ "key": "八号影视", "name": "🎬八号影视🎬",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {"数组":" <div class=\"myui-vodbox-content\">&&</a>",
 	 "图片": "src=\"&&\"",
      "标题":" <div class=\"title\">&&</div>",
@@ -445,22 +441,18 @@
       "搜索模式":"1",
 	   "搜索url": "https://www.bahaotv.com/so.html?wd={wd}",
       "分类url": "https://www.bahaotv.com/vodshow/{cateId}--{by}------{catePg}---.html",
-              "分类": "电影$movie#电视剧$tvseries#动漫$anime"
-        }
-    },
+        "分类": "电影$movie#电视剧$tvseries#动漫$anime"
+        } },
 
 
 	
 	
 	
-	{
-        "key": "独播库",
-        "name": "🚗独播库🚗",
-        "type": 3,
-        "api": "csp_XBPQ",
+	{"key": "独播库","name": "🚗独播库🚗",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {
             "二次截取": "myui-vodlist clearfix\">&&</ul>",
-				"数组": "myui-vodlist__box\"&&</a>",
+		 "数组": "myui-vodlist__box\"&&</a>",
 				"标题": "title=\"&&\"",
 				"图片": "data-original=\"&&\"",
 				"副标题": "text-right\">&&</span>",
@@ -477,15 +469,11 @@
             "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
             "分类标题": ">&&</a>",
             "分类ID": "/vodtype/&&.html"
-        }
-    }, 
-	
-	{
-        "key": "vs影视",
-        "name": "VS影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-      
+        }}, 
+
+
+	{"key": "vs影视", "name": "⚡️VS影视⚡️",
+        "type": 3,"api": "csp_XBPQ",
         "ext": {
             "分类url": "https://www.nxgqmy.com/ybsitp/{cateId}-{catePg}.html",
             "线路数组": "#playlist&&</li>",
@@ -501,7 +489,7 @@
     },
 
 	
-	{"key": "APP影院","name": "APP影院",
+	{"key": "APP影院","name": "🪶APP影院🪶",
         "type": 3,"api": "csp_XBPQ",
        "ext": {"数组": "stui-vodlist__item\"&&</li>",
 				"标题": "title=\"&&\"",
@@ -522,45 +510,57 @@
     }, 
 	
 	
-	{
-        "key": "csp_hmhd",
-        "name": "河马影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-       
-        "ext": {
-            "分类url": "https://www.hemahd.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
-            "分类": "电影&电视剧&动漫&综艺",
-            "分类值": "1&2&3&4"
-        }
-    }, 
+	{"key": "csp_hmhd","name": "🦛河马影视🦛",
+      "type": 3, "api": "csp_XBPQ",
+      "ext": {
+     "分类url": "https://www.hemahd.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
+     "分类": "电影&电视剧&动漫&综艺",
+      "分类值": "1&2&3&4"
+        }}, 
 	
-	{
-        "key": "csp_mgtva",
-        "name": "木瓜影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-       
-        "ext": {
-            "分类url": "https://www.muguatva.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-            "分类": "电影&电视剧&综艺&动漫",
-            "分类值": "dianying&lianxuju&zongyi&dongman"
+	
+	{ "key": "csp_mgtva","name": "🪵木瓜影视🪵",
+        "type": 3,"api": "csp_XBPQ",
+       "ext": {
+        "分类url": "http://www.muguatv1.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+        "分类": "电影&电视剧&综艺&动漫",
+       "分类值": "dianying&lianxuju&zongyi&dongman"
         }
     }, 
 
-	{
-        "key": "bkyy",
-        "name": "布卡影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-      
-        "ext": {
-            "线路数组": "#ewave-playlist&&</li>",
-            "分类url": "https://www.gtrgt.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-            "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$21#伦理$23"
+	
+	{"key": "素白白影视","name": "🌳素白白影视🌳",
+      "type": 3,"api": "csp_XBPQ",
+      "ext": { "主页url": "https://www.subaibai.com",
+       "分类": "电影&电视剧&热门电影&国产剧&欧美剧&韩剧&高分电影&动漫电影&香港经典电影&动漫剧",
+       "分类值": "new-movie&tv-drama&hot-month&domestic-drama&american-drama&korean-drama&high-movie&cartoon-movie&hongkong-movie&anime-drama",
+     "分类url": "https://www.subaibai.com/{cateId}/page/{catePg}",
+      "数组": "<li>&&</li>",
+	  "标题": "alt=\"&&\"",
+     "副标题": "<p class=\"dbpf\">&&</p><p>&&</p>",
+     "搜索模式": "1",
+     "搜索url": "/search?q={wd}",
+     "搜索数组": "<li>&&</li>",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索标题": "alt=\"&&\"",
+    "搜索副标题": "dbpf\">&&</p><p>&&</p>",
+    "搜索链接": "href=\"&&\"",
+    "影片年代": "年份：&&</li>",
+    "影片地区": "地区：&&</li>",
+    "影片类型": "类型：&&</li>",
+     "导演": "导演：&&</li>",
+    "主演": "主演：&&</li>",
+    "简介": "yp_context\">&&</p>",
+    "线路数组": "mi_paly_box\">&&</div>",
+    "线路标题": "ypxingq_t\">&&<span>[替换:在线播放>>播放列表]",
+    "播放数组": "<div class=\"paly_list_btn\">&&</div>",
+    "播放列表": "<a&&/a>",
+    "播放标题": ">&&<[替换:立即播放>>空]",
+     "播放链接": "href=\"&&\""
         }
     }, 
 
+	
 	{
         "key": "快看观影",
         "name": "快看观影",
