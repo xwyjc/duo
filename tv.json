@@ -500,13 +500,10 @@
         }
     },
 
-	{
-        "key": "APP影院",
-        "name": "APP影院",
-        "type": 3,
-        "api": "csp_XBPQ",
-      
-        "ext": {	"数组": "stui-vodlist__item\"&&</li>",
+	
+	{"key": "APP影院","name": "APP影院",
+        "type": 3,"api": "csp_XBPQ",
+       "ext": {"数组": "stui-vodlist__item\"&&</li>",
 				"标题": "title=\"&&\"",
 				"图片": "data-original=\"&&\"",
 				"副标题": "text-right\">&&</span>",
@@ -515,10 +512,12 @@
 				"播放列表": "<a&&a>",
 				"播放链接": "href=\"&&\"",
 				"播放标题": ">&&</",
-				"线路数组": " <ul class=\"t-ul\">&&</ul>",
-				"线路标题": ">&&</span>",
+				"线路数组": " <h3&&h3>",
+				"线路标题": "class=\"title\">&&</",
+				 "搜索模式":"1",
+	          "搜索url": "https://www.appmovie.art/index.php/vod/search/page/{pg}/wd/{wd}.html",
             "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-            "分类url": "https://www.appmovie.art/index.php/vod/show/area/{area}/by/time/class/{class}/id/{cateId}/page/{catePg}.html"
+            "分类url": "https://www.appmovie.art/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}.html"
         }
     }, 
 	
