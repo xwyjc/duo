@@ -3,6 +3,32 @@
 	"sites": [
 		
 		
+		
+			{"key": "MXVOD明星影院","name": "💰MXVOD明星影院💰", "type": 3,
+     
+         "api": "csp_XBPQ",
+         "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "数组": "<div class=\"module-item\">&&<div class=\"module-item-text\">",
+          "图片": "data-original=\"&&\"",
+          "标题": "title=\"&&\"",
+          "副标题": "<div class=\"video-class\">&&</div>",
+          "链接": "href=\"&&\"",
+	      "播放数组":"class=\"scroll-content$$</div>",
+	      "播放标题":"<span>&&</span>",
+		  "播放列表":"<a&&</a>",
+		   "搜索模式": "1", 
+	     "搜索url": "https://mxvod.com/vodsearch/-------------.html?wd={wd}",
+          "分类url": "https://mxvod.com/vodshow/{cateId}--------{catePg}---.html",
+          "分类": "电影$dianying#连续剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#解说$dianyingjieshuo",
+       
+      }
+    },	 
+		
+		
+		
+		
 		{"key": "555电影","name": "5️⃣555┃电影",
 			"type": 3,"api": "csp_XBPQ",
 			"ext": {
@@ -177,7 +203,7 @@
 		   "搜索模式": "1", 
 	     "搜索url": "https://www.guangyingmi.com/search--------------/?wd={wd}",
           "分类url": "https://www.guangyingmi.com/pianku-{cateId}-{area}-{by}--{lang}----{catePg}---{year}/",
-          "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$4#短剧$28",
+          "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#短剧$duanju",
           "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#剧情片$juqingpian#战争片$zhanzhengpian#动画片$donghuapian||国剧$guochanju#欧美剧$oumeiju#韩日剧$rihanju#港台剧$gangtaiju||大陆综艺$daluzongyi#欧美综艺$oumeizongyi#日韩综艺$rihanzongyi#港台综艺$gangtaizongyi||空||空",
           "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
       }
@@ -451,7 +477,7 @@
             "name": "🌈PTT视频",
             "type": 3,
             "api":"csp_XBPQ", 
-            "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/jar/xyqxbpq.jar",
+           
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
@@ -460,7 +486,8 @@
            "线路标题":"title=\"&&\"",
            "搜索url":"https://ptt.red/node/search?title={wd}",
            "播放链接":"href=\"&&\"","直接播放":"0", 
-"播放线路":"<div class=\"tabbable fullwidth\">&&</div> ","分类url":"https://ptt.red/p/{cateId}/class/{class}?year={year}&sort={by}&page={catePg}&area_id={area}",
+          "播放线路":"<div class=\"tabbable fullwidth\">&&</div> ",
+		  "分类url":"https://ptt.red/p/{cateId}/class/{class}?year={year}&sort={by}&page={catePg}&area_id={area}",
            "分类":"短剧$66#电视剧$3#电影$1#动漫$4#综艺$2#伦理$1/c/33"
            }
          },
