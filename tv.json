@@ -773,39 +773,7 @@
     
 	
 	 
-	 
-	 { "key": "毒蛇","name": "🌼毒蛇┃推荐",
-            "type": 3,"api": "csp_XBPQ","searchable": 1,
-            "quickSearch": 0,"filterable": 1,
-            "ext": {"图片": "https+://61.147.93.252:15002/vod1/+data-original=\"/vod1/&&\"",
-                "主页url": "https://www.dushe3.com:51111/",
-                "分类url": "https://www.dushe3.com:51111/show/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html[https://www.dushe3.com:51111/label/{cateId}-.html];;ak",
-                "分类": "🎞今日更新&毒舌推荐&电影&电视剧&动漫&综艺&短剧",
-                "分类值": "https://www.dushe3.com:51111/label/new.html&https://www.dushe3.com:51111/topic/detail/3-1.html&https://www.dushe3.com:51111/channel/1.html&https://www.dushe3.com:51111/channel/2.html&https://www.dushe3.com:51111/channel/3.html&https://www.dushe3.com:51111/channel/4.html&https://www.dushe3.com:51111/channel/6.html",
-                "数组": "module-item\">&&\"v-item-footer\">",
-                "标题": "+title=\"&&\"",
-                "副标题": "+v-item-bottom\">&&</span>",
-                "链接": "href=\"&&\"",
-                "搜索二次截取": "id=\"units_top\"&&id=\"units_footer\"",
-                "搜索url": "https://www.dushe3.com:51111/search?k={wd}&page={pg}",
-                "搜索图片": "https+://61.147.93.252:15002+data-original=\"&&\"",
-                "搜索标题": "class=\"title\">&&</div>",
-                "搜索副标题": "search-result-item-header\">&&</div>",
-                "搜索链接": "href=\"&&\"",
-                "线路数组": "source-item-dot&&<i",
-                "线路标题": "source-item-label&&<span",
-              "播放数组": "episode-list\"&&</div",
-                "播放列表": "<a&&/a",
-                "播放链接": "href=\"&&\"",
-                "嗅探词": ".m3u8#video_mp4#tos-#.mp4#cdn.123pan.cn#huoshanvod.com",
-                "影片地区": "",
-                "影片类型": "<div class=\"detail-tags fs-margin-top fs-margin-bottom\">&&立即播放",
-                "影片状态": "备注:&&</div>",
-                "导演": "导演:</div>&&</div>",
-                "主演": "演员:</div>&&</div>",
-                "简介": "detail-desc\">&&</p>","倒序":"0"
-            }
-        },
+	
     
 	{
       "key": "好趣网",
@@ -920,8 +888,10 @@
   "线路数组": "class=\"swiper-slide source-swiper-slide&&</div>",
   "线路标题": ">&&</span>",
   "搜索二次截取": "<div class=\"search-result-list&&pagenation-box fs-margin-section",
-  "搜索数组": "<a&&</a>","搜索图片": "https+://61.147.93.252:15002/vod1/+data-original=\"/vod1/&&\"",
-  "搜索标题": "title=\"&&\"","搜索链接": "href=\"&&\"",
+  "搜索数组": "<a&&</a>",
+  "搜索图片": "https+://61.147.93.252:15002/vod1/+data-original=\"/vod1/&&\"",
+  "搜索标题": "title=\"&&\"",
+  "搜索链接": "href=\"&&\"",
   "搜索url": "https://www.dushe1.app/search?k={wd}&page={pg}",
   "分类url": "https://www.dushe1.app/show/{cateId}-{class}-{area}--{year}-{catePg}.html",
   "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6"}},
@@ -3432,46 +3402,9 @@
 				"分类": "电影$2#电视剧$1#综艺$4#动漫$3#体育赛事$5#网红短剧$41"
 			}
 		},
-		{
-			"key": "毒舌影院",
-			"name": "毒舌影院😎",
-			"type": 3,
-			"jar": "./lib/xyqxbpq.jar",
-			"api": "csp_XBPQ",
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"主页url": "https://www.dushe.cc/",
-				"二次截取": "",
-				"数组": "loading&&</li>",
-				"标题": "title=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"副标题": "text-bg-r\"&&</span>",
-				"链接": "href=\"&&\"",
-				"播放数组": "clearfix fade in active&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</",
-				"线路数组": "#con_playlist_1\"&&</li>",
-				"线路标题": ">&&</",
-				"跳转播放链接": "var player_*\"url\":\"&&\"",
-				"搜索模式": "1",
-				"搜索url": "https://www.dushe.cc/vodsearch/-------------/",
-				"分类url": "https://www.dushe.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
-				"分类": "电影$1#电视剧$2#短剧$5",
-				"分类值":"Netflix$Netflix#爱情$爱情#科幻$科幻#战争$战争#喜剧$喜剧#冒险$冒险#剧情$剧情#犯罪$犯罪#悬疑$悬疑#古装$古装#奇幻$奇幻#武侠$武侠||空||空"
-			}
-		},
-	
-		{
-			"key": "策驰影院",
-			"name": "❤️策驰影院🎦",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": "./js/策驰影院.json",
-			"jar": "./lib/xyqxbpq.jar"
-		},
 		
+	
+	
 	
 		
 		
