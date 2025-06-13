@@ -4,13 +4,12 @@
 		
 		
 		
-			{"key": "MXVOD明星影院","name": "💰MXVOD明星影院💰", "type": 3,
-     
+	   {"key": "MXVOD明星影院","name": "💰MXVOD明星影院💰", "type": 3,
          "api": "csp_XBPQ",
          "ext": {
           "请求头": "User-Agent$MOBILE_UA",
           "编码": "UTF-8",
-          "数组": "<div class=\"module-item\">&&<div class=\"module-item-text\">",
+          "数组": "<div class=\"module-item\">&&<div class=\"module-item-titlebox\">",
           "图片": "data-original=\"&&\"",
           "标题": "title=\"&&\"",
           "副标题": "<div class=\"video-class\">&&</div>",
@@ -20,8 +19,10 @@
 		  "播放列表":"<a&&</a>",
 		   "搜索模式": "1", 
 	     "搜索url": "https://mxvod.com/vodsearch/-------------.html?wd={wd}",
-          "分类url": "https://mxvod.com/vodshow/{cateId}--------{catePg}---.html",
-          "分类": "电影$dianying#连续剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#解说$dianyingjieshuo"
+          "分类url": "https://mxvod.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+          "分类": "电影$dianying#连续剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju",
+          "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#剧情片$juqingpian#战争片$zhanzhengpian#动画片$donghuapian||国剧$guochanju#欧美剧$oumeiju#韩日剧$rihanju#港台剧$gangtaiju||大陆综艺$daluzongyi#欧美综艺$oumeizongyi#日韩综艺$rihanzongyi#港台综艺$gangtaizongyi||空||空",
+          "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
        
       }
     },	 
@@ -57,13 +58,9 @@
 		
 		
 	
-		{"key": "🐮牛牛资源","name": "牛牛资源","type": 0,
-		"api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
-		"searchable": 1,  "changeable": 1, 
-		"categories": ["动作片","邵氏电影","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧","4K电影","喜剧片","爱情片","科幻片","战争片","剧情片","港台综艺","日韩综艺","大陆综艺","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧"]},
 		
 		{
-			"key": "Aries不承担任何风险-统一影视",
+			"key": "统一影视",
 			"name": "💯统一┃影视",
 			"type": 3,
 			"api": "csp_XBPQ",
@@ -187,15 +184,14 @@
 		{"key": "光影迷影视","name": "🎥｜光影迷｜影视", "type": 3,
      
        "api": "csp_XBPQ",
-       "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
+       "ext": { "请求头": "User-Agent$MOBILE_UA",
           "编码": "UTF-8",
           "数组": "<div class=\"module-item\">&&<div class=\"module-item-text\">",
           "图片": "data-original=\"&&\"",
           "标题": "title=\"&&\"",
           "副标题": "<div class=\"module-item-caption\">&&</div>",
           "链接": "href=\"&&\"",
-          "线路数组":"data-dropdown-value=&&</div>",
+          "线路数组":"data-dropdown-value=&&</div>[排序:备用节点&&>TX节点>QY节点]",
 	      "线路标题":"<span>&&</small>",
 	      "播放数组":"<div class=\"module-tab-content\">&&</div>",
 	      "播放标题":"<span>&&</span>",
@@ -416,7 +412,7 @@
           "播放列表": "<a&&a>",
           "播放链接": "href=\"&&\"",
           "播放标题": ">&&</",
-          "线路数组": "<a href=\"javascript:void(0);\"&&</a>",
+          "线路数组": "<a href=\"javascript:void(0);\"&&</a>[排序:全球线路>国内线路]",
           "线路标题": "alt=\"&&\"",
 		 "搜索模式": "1",
 	     "搜索数组": "<li class=\"searchlist_item\">&&</li>",
@@ -448,17 +444,17 @@
 		{"key":"✳️天天影视","name":"❇️天天影视",
 		"type":3,"api":"csp_XBPQ","searchable": 1,
 		"quickSearch": 0,"filterable": 1,
-		//"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/jar/xyqxbpq.jar",
+		
 		"ext":{"请求头": "User-Agent$MOBILE_UA",
 		"编码": "UTF-8","搜索url":"https://m.rvm2.com/ttsearch/-------------.html?wd={wd}&submit=",
-		"播放线路":"tabs playlist&&</div>","播放数组":"<ul class=\"content_playlist clearfix\">&&</ul>",
+		"播放线路":"tabs playlist&&</div>[排序:线路3(全球)>线路2(全球)>线路1(中国)]",
+		"播放数组":"<ul class=\"content_playlist clearfix\">&&</ul>",
 		"分类url":"https://m.rvm2.com/ttgd/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
 		"分类":"电影$dianyingyuan#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju",
 		"类型":"动作片$dongzuopian#爱情片$aiqingpian#喜剧片$xijupian#科幻片$kehuanpian#恐慌片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#动画片$donghuapian||国产剧$guochanju#香港剧$gangju#台湾剧$taiwanju#韩国剧$hanju#日本剧$riju#美剧$meiju||无||无||无||无"}},
 
 
-    {
-     	 "key": "🎆LIBVIO电影",
+    {"key": "🎆LIBVIO电影",
       "name": "🎆LIBVIO电影",
       "type": 3,
       "api": "csp_XBPQ",
@@ -1445,56 +1441,9 @@
 				"类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#奇幻片$qihuanpian#犯罪片$fanzuipian#悬疑片$xuanyipian#纪录片$jilupian#动画片$donghuapian#老电影$laodianying||国产剧$guochanju#香港剧$xianggangju#台湾剧$diwanju#日本剧$ribenju#韩国剧$hanguoju#泰国剧$taiguoju#欧美剧$oumeiju#欧美剧$oumeiju#海外剧$haiwaiju||大陆综艺$daluzongyi#港台综艺$gangtaizongyi#日韩综<艺$rihanzongyi#欧美综艺$oumeizongyi||国产动漫$guochandongman#港台动漫$gangtaidongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#海外动漫$haiwaidongman||空"
 			}
 		},
-		 {"key": "https://huawei8.live/",  "name": "华为吧",  "type": 0,  "api": "https://cjhwba.com/api.php/provide/vod/at/xml/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","冒险片","动画电影","悬疑片","灾难片","科幻片","犯罪片","喜剧片","爱情片","奇幻片","战争片","剧情片","经典片","网络电影","港台综艺","日韩综艺","国产综艺","电视剧","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧"]},
-		  {"key": "https://heimuer.tv/",  "name": "黑木耳资源",  "type": 1,  "api": "https://json02.heimuer.xyz/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": []},
-		{"key": "https://kuaichezy.com/",  "name": "快车",  "type": 1,  "api": "https://caiji.kczyapi.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["邵氏电影","4K电影","动作片","冒险片","动画电影","悬疑片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","网络电影","经典片","短剧","港台综艺","日韩综艺","大陆综艺","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧"]},
-		 {"key": "https://okzyw9.com/",  "name": "OK资源站",  "type": 1,  "api": "https://okzyapi.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","冒险片","动画电影","记录片","科幻片","犯罪片","喜剧片","爱情片","古装片","历史片","战争片","剧情片","短剧","短片","港台综艺","韩国综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰剧","欧美剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧"]},
-		 {"key": "https://wolongzyw.com/",  "name": "卧龙资源",  "type": 0,  "api": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","冒险片","动画电影","记录片","科幻片","犯罪片","喜剧片","爱情片","古装片","历史片","战争片","剧情片","短剧","短片","港台综艺","韩国综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰剧","欧美剧"]},
-		   {"key": "https://huyazy.com/",  "name": "虎牙资源",  "type": 1,  "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","记录片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","韩剧","内地剧","日剧","香港剧","台湾剧","马泰剧","欧美剧"]},
+	
 		
-		
-		 {"key": "https://www.hongniuzy.com/",  "name": "红牛资源",  "type": 1,  "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","科幻片","犯罪片","爱情片","战争片","剧情片","综艺","韩剧","国产剧","日剧","港澳剧","台湾剧","泰剧","欧美剧"]},
-		 {"key": "https://jinyingzy.com/",  "name": "金鹰采集",  "type": 0,  "api": "https://jyzyapi.com/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","短剧","综艺","韩剧","内地剧","日剧","香港剧","台湾剧","马泰剧","欧美剧"]},
-		
-		 {"key": "https://zuida001.com/",  "name": "最大资源",  "type": 1,  "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["邵氏电影","4K电影","动作片","电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","年代穿越","现代言情","港台综艺","日韩综艺","大陆综艺","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧"]},
-		
-		
-		 {"key": "https://bfzy2.tv/",  "name": "暴风资源",  "type": 0,  "api": "https://bfzyapi.com/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","穿越年代","现代言情","港台综艺","日韩综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰国剧","欧美剧"]},
-		 
-		{"key": "https://ikunzy.net/",  "name": "iKun资源",  "type": 1,  "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["家庭片","动作片","悬疑片","灾难片","记录片","科幻片","犯罪片","喜剧片","爱情片","古装片","历史片","战争片","剧情片","短剧","短片","港台综艺","日韩综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰国剧","欧美剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧" ]},
-		 {"key": "https://suonizy.com/",  "name": "索尼资源",  "type": 0,  "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["邵氏电影","动作片","4K电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","穿越年代","现代都市",,"古装仙侠","反转爽剧","港台综艺","日韩综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰国剧","欧美剧" ]},
-		 {"key": "https://www.jisuzy.com/",  "name": "极速资源",  "type": 1,  "api": "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","内地剧","香港剧","台湾剧","韩剧","国产剧","日剧","马泰剧","欧美剧","港台综艺","日韩综艺","大陆综艺"]},
-		   {"key": "https://haohuazy.com/",  "name": "豪华资源",  "type": 1,  "api": "https://hhzyapi.com/api.php/provide/vod/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","内地剧","香港剧","台湾剧","韩剧","国产剧","日剧","马泰剧","欧美剧","港台综艺","日韩综艺","大陆综艺"]},
-		 {"key": "https://guangsuzy.com/",  "name": "光速资源",  "type": 1,  "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","内地剧","香港剧","台湾剧","韩剧","国产剧","日剧","马泰剧","欧美剧","港台综艺","日韩综艺","大陆综艺"]},
-		
-		{"key": "https://www.wujinzy.net/",  "name": "无尽资源",  "type": 0,  "api": "https://wjzyapi.com/api.php/provide/vod/from/wjm3u8/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","悬疑片","犯罪片","奇幻片","邵氏电影","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺","短剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧","女频恋爱"]},
-		 
-		
-		 {"key": "https://www.ryzyw.com/help/",  "name": "如意资源网",  "type": 0,  "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","动画电影","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺"]},
-		 {"key": "旺旺",  "name": "旺旺资源-短剧",  "type": 1,  "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		   {"key": "https://tyyszy.com/",  "name": "天涯影视",  "type": 0,  "api": "https://tyyszyapi.com/api.php/provide/vod/at/xml/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		 {"key": "樱花",  "name": "樱花资源网",  "type": 0,  "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		  {"key": "无线资源网",  "name": "无线资源网",  "type": 0,  "api": "https://api.wuxianzy.net/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		
-		 {"key": "魔爪资源采集网",  "name": "魔爪资源",  "type": 0,  "api": "https://mozhuazy.com/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		  {"key": "蜂巢片库采集站",  "name": "蜂巢片库",  "type": 0,  "api": "https://api.fczy888.me/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		 {"key": "爱奇艺资源站",  "name": "爱奇艺",  "type": 0,  "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		 {"key": "茅台资源站",  "name": "茅台资源站",  "type": 0,  "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		 {"key": "金蝉官采影视",  "name": "金蝉官采影视",  "type": 1,  "api": "http://jczy.jinchan.pro/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
-		
-		{"key": "360",  "name": "360资源",  "type": 1,  "api": "https://360zy.com/api.php/provide/vod/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["历史片","古装片","灾难片","悬疑片","动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","动画电影","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺" ]},
-		  {"key": "YY",  "name": "丫丫资源",  "type": 1,  "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["4K电影","动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","动画电影","国产剧","港剧","台湾剧","记录片","韩剧","日剧","港台综艺","日韩综艺","大陆综艺"]},
-		{"key": "https://shandianzy.com/",  "name": "闪电资源",  "type": 0,  "api": "https://xsd.sdzyapi.com/api.php/provide/vod/from/sdm3u8/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","国产剧","港剧","台剧","记录片","韩剧","日剧","港台综艺","日韩综艺","大陆综艺"]},
-		 {"key": "https://1080zyk6.com/",  "name": "1080zyk优质",  "type": 1,  "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","欧美剧","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺" ]},
-		
-		{
-			"key": "Aries不承担任何风险-森林CINEMA",
+		{"key": "Aries不承担任何风险-森林CINEMA",
 			"name": "🌳森林┃影视",
 			"type": 3,
 			"api": "csp_XBPQ",
@@ -3612,36 +3561,110 @@
 				"分类": "电影$1#连剧集$2#综艺$3#动漫$4"
 			}
 		},
-		{
-			"key": "中畅影院",
-			"name": "🚆中畅┃影视 域名过期",
-			"type": 3,
-			"jar": "./lib/xyqxbpq.jar",
-			"api": "csp_XBPQ",
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"主页url": "https://szdy168.com/",
-				"数组": "默认--lazyload\"&&</a>||搜索--lazyload\"&&</a>",
-				"标题": "默认--title=\"&&\"||搜索--title=\"&&\"",
-				"图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
-				"副标题": "默认--right\">&&</span>||搜索--right\">&&</span>",
-				"链接": "默认--href=\"&&\"||搜索--href=\"&&\"",
-				"播放数组": "playlist clearfix&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</",
-				"线路数组": "more text-muted pull-right&&</div>",
-				"线路标题": "title\">&&</",
-				"简介": "learfix\"><p>&&</p>",
-				"跳转播放链接": "var player_*\"url\":\"&&\"",
-				"搜索url": "https://szdy168.com/sousuoye/{wd}----------{pg}---.html",
-				"分类url": "https://szdy168.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-				"分类": "电影&电视剧&动漫&综艺",
-				"分类值": "dianying&dianshiju&dongman&zongyi"
-			}
-		}
+		
+		
+		
+		{"key": "牛牛资源","name": "🐮牛牛资源🐮","type": 0,
+		"api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
+		"searchable": 1,  "changeable": 1, 
+		"categories": ["动作片","邵氏电影","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧","4K电影","喜剧片","爱情片","科幻片","战争片","剧情片","港台综艺","日韩综艺","大陆综艺","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧"]},
+		
+		
+			 
+			 
+		{"key": "https://huawei8.live/",  "name": "华为吧",  "type": 0,  "api": "https://cjhwba.com/api.php/provide/vod/at/xml/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","冒险片","动画电影","悬疑片","灾难片","科幻片","犯罪片","喜剧片","爱情片","奇幻片","战争片","剧情片","经典片","网络电影","港台综艺","日韩综艺","国产综艺","电视剧","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧"]},
+		{"key": "https://heimuer.tv/",  "name": "黑木耳资源",  "type": 1,  "api": "https://json02.heimuer.xyz/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": []},
+		{"key": "https://kuaichezy.com/",  "name": "快车",  "type": 1,  "api": "https://caiji.kczyapi.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["邵氏电影","4K电影","动作片","冒险片","动画电影","悬疑片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","网络电影","经典片","短剧","港台综艺","日韩综艺","大陆综艺","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧"]},
+		{"key": "https://okzyw9.com/",  "name": "OK资源站",  "type": 1,  "api": "https://okzyapi.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","冒险片","动画电影","记录片","科幻片","犯罪片","喜剧片","爱情片","古装片","历史片","战争片","剧情片","短剧","短片","港台综艺","韩国综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰剧","欧美剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧"]},
+		{"key": "https://wolongzyw.com/",  "name": "卧龙资源",  "type": 0,  "api": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","冒险片","动画电影","记录片","科幻片","犯罪片","喜剧片","爱情片","古装片","历史片","战争片","剧情片","短剧","短片","港台综艺","韩国综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰剧","欧美剧"]},
+		{"key": "https://huyazy.com/",  "name": "虎牙资源",  "type": 1,  "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","记录片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","韩剧","内地剧","日剧","香港剧","台湾剧","马泰剧","欧美剧"]},
+		
+		
+		 {"key": "https://www.hongniuzy.com/",  "name": "红牛资源",  "type": 1,  "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","科幻片","犯罪片","爱情片","战争片","剧情片","综艺","韩剧","国产剧","日剧","港澳剧","台湾剧","泰剧","欧美剧"]},
+		 {"key": "https://jinyingzy.com/",  "name": "金鹰采集",  "type": 0,  "api": "https://jyzyapi.com/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","短剧","综艺","韩剧","内地剧","日剧","香港剧","台湾剧","马泰剧","欧美剧"]},
+		
+		 {"key": "https://zuida001.com/",  "name": "最大资源",  "type": 1,  "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["邵氏电影","4K电影","动作片","电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","年代穿越","现代言情","港台综艺","日韩综艺","大陆综艺","韩剧","国产剧","日剧","港剧","台剧","泰剧","欧美剧"]},
+		
+		
+		 {"key": "https://bfzy2.tv/",  "name": "暴风资源",  "type": 0,  "api": "https://bfzyapi.com/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","穿越年代","现代言情","港台综艺","日韩综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰国剧","欧美剧"]},
+		 
+		{"key": "https://ikunzy.net/",  "name": "iKun资源",  "type": 1,  "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["家庭片","动作片","悬疑片","灾难片","记录片","科幻片","犯罪片","喜剧片","爱情片","古装片","历史片","战争片","剧情片","短剧","短片","港台综艺","日韩综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰国剧","欧美剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧" ]},
+		 {"key": "https://suonizy.com/",  "name": "索尼资源",  "type": 0,  "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["邵氏电影","动作片","4K电影","科幻片","犯罪片","喜剧片","爱情片","记录片","战争片","剧情片","穿越年代","现代都市",,"古装仙侠","反转爽剧","港台综艺","日韩综艺","大陆综艺","韩国剧","国产剧","日本剧","香港剧","台湾剧","泰国剧","欧美剧" ]},
+		 {"key": "https://www.jisuzy.com/",  "name": "极速资源",  "type": 1,  "api": "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","内地剧","香港剧","台湾剧","韩剧","国产剧","日剧","马泰剧","欧美剧","港台综艺","日韩综艺","大陆综艺"]},
+		   {"key": "https://haohuazy.com/",  "name": "豪华资源",  "type": 1,  "api": "https://hhzyapi.com/api.php/provide/vod/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","内地剧","香港剧","台湾剧","韩剧","国产剧","日剧","马泰剧","欧美剧","港台综艺","日韩综艺","大陆综艺"]},
+		 {"key": "https://guangsuzy.com/",  "name": "光速资源",  "type": 1,  "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",  "searchable": 1,  "changeable": 1,  "categories": ["悬疑片","动作片","灾难片","科幻片","犯罪片","喜剧片","爱情片","战争片","剧情片","短剧","内地剧","香港剧","台湾剧","韩剧","国产剧","日剧","马泰剧","欧美剧","港台综艺","日韩综艺","大陆综艺"]},
+		
+		{"key": "https://www.wujinzy.net/",  "name": "无尽资源",  "type": 0,  "api": "https://wjzyapi.com/api.php/provide/vod/from/wjm3u8/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","悬疑片","犯罪片","奇幻片","邵氏电影","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺","短剧","现代都市","脑洞悬疑","年代穿越","古装仙侠","反转爽剧","女频恋爱"]},
+		 
+		
+		 {"key": "https://www.ryzyw.com/help/",  "name": "如意资源网",  "type": 0,  "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","动画电影","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺"]},
+		 {"key": "旺旺",  "name": "旺旺资源-短剧",  "type": 1,  "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		   {"key": "https://tyyszy.com/",  "name": "天涯影视",  "type": 0,  "api": "https://tyyszyapi.com/api.php/provide/vod/at/xml/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		 {"key": "樱花",  "name": "樱花资源网",  "type": 0,  "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		  {"key": "无线资源网",  "name": "无线资源网",  "type": 0,  "api": "https://api.wuxianzy.net/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		
+		 {"key": "魔爪资源采集网",  "name": "魔爪资源",  "type": 0,  "api": "https://mozhuazy.com/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		  {"key": "蜂巢片库采集站",  "name": "蜂巢片库",  "type": 0,  "api": "https://api.fczy888.me/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		 {"key": "爱奇艺资源站",  "name": "爱奇艺",  "type": 0,  "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		 {"key": "茅台资源站",  "name": "茅台资源站",  "type": 0,  "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		 {"key": "金蝉官采影视",  "name": "金蝉官采影视",  "type": 1,  "api": "http://jczy.jinchan.pro/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		{"key": "360",  "name": "360资源",  "type": 1,  "api": "https://360zy.com/api.php/provide/vod/at/json",  "searchable": 1,  "changeable": 1,  "categories": ["历史片","古装片","灾难片","悬疑片","动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","动画电影","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺" ]},
+		  {"key": "YY",  "name": "丫丫资源",  "type": 1,  "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["4K电影","动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","动画电影","国产剧","港剧","台湾剧","记录片","韩剧","日剧","港台综艺","日韩综艺","大陆综艺"]},
+		{"key": "https://shandianzy.com/",  "name": "闪电资源",  "type": 0,  "api": "https://xsd.sdzyapi.com/api.php/provide/vod/from/sdm3u8/at/xml",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","犯罪片","欧美剧","国产剧","港剧","台剧","记录片","韩剧","日剧","港台综艺","日韩综艺","大陆综艺"]},
+		 {"key": "https://1080zyk6.com/",  "name": "1080zyk优质",  "type": 1,  "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",  "searchable": 1,  "changeable": 1,  "categories": ["动作片","喜剧片","爱情片","科幻片","战争片","剧情片","欧美剧","国产剧","香港剧","台湾剧","记录片","韩国剧","日本剧","港台综艺","日韩综艺","大陆综艺" ]},
+		
+		 {"key": "金马资源站",  "name": "金马资源",  "type": 0,  "api": "https://api.jmzy.com/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		{"key": "豆瓣资源站",  "name": "豆瓣资源站",  "type": 0,  "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		{"key": "电影天堂站",  "name": "电影天堂站",  "type": 0,  "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",  "searchable": 1,  "changeable": 1,  "categories": [ ]},
+		
+		
+		{"key": "金马资源网",  "name": "金马资源网",  "type": 0,  "api": "https://api.jmzy.com/api.php/provide/vod/at/xml",  "searchable": 1,  "changeable": 1,  "categories": [ ]}
+		
 	],
+	
+	"parses":[
+  {"name":"解析聚合","type":3,"url":"Demo"},
+{"name":"Json并发","type":2,"url":"Parallel"},
+{"name":"Json轮询","type":2,"url":"Sequence"},
+{"name": "云you解析①","type": 1,"url": "http://chaloli.cn/home/api?type=ys&uid=1&key=dfgilnotuyDGHMQW34&url"}, 
+{"name": "解析01","type": 1,"url": "https://svip.znjson.com/api/?key=gX8j9IPvoQ5mFmlIzu&url="},	
+{"name": "解析02","type": 1,"url": "https://hc.izny.cn/json.php?url="},		
+{"name": "解析03","type": 1,"url": "https://sljxsl.com/?url="},		
+{"name": "解析04","type": 1,"url": "https://yutujx.com/?url="},		
+{"name":"OK","type":0,"url":"https://okjx.cc/?url="},
+{"name": "解析02","type": 0,"url": "https://www.nxflv.com/?url="}, 
+{"name": "牛逼解析","type": 0,"url": "https://nbjx.vip/?url="}, 
+{"name": "parwix","type": 0,"url": "https://jx.parwix.com:4433/player/?url="}, 	
+{"name":"恩哥", "type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"flag":[ "qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
+{"name":"365","type":0,"url": "https://chaxun.truechat365.com/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+{"name":"8old","type":0,"url":"https://www.m3u8.tv.cdn.8old.cn/jx.php?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+{"name": "ZNJSON解析","type": 1,"url": "https://svip.znjson.com/api/?key=gX8j9IPvoQ5mFmlIzu&url="}, 
+{"name": "解析06","type": 0,"url": "https://vip.parwix.com:4433/player/?url="},	
+{"name": "parwix稳定","type": 0,"url": "https://jx.bozrc.com:4433/player/?url="}, 
+{"name": "OKjx综合","type": 0,"url": "https://okjx.cc/?url="},
+{"name":"B站1","type":0,"url":"https://jx.bozrc.com:4433/player/?url="},
+{"name":"爱豆","type":0,"url":"https://jx.aidouer.net/?url="},
+{"name":"H8","type":0,"url":"https://www.h8jx.com/jiexi.php?url="},
+{"name":"解析","type":0,"url":"https://ckmov.ccyjjd.com/ckmov/?url="},
+{"name":"思古3","type":0,"url":"https://jsap.attakids.com/?url="},
+{"name":"云端1","type":0,"url":"https://js.52jx.top:2525/?url="},
+{"name":"云端2","type":0,"url":"https://sb.5gseo.net/?url="}
+{"name":"茅台资源站P2P商业加速解析","type":0,"url":"https://mtjiexi.cc:966/?url="},
+{"name":"X细胞资源网加速播放器","type":0,"url":"https://www.xxibaozyw.com/player.php?url="},
+{"name":"豆瓣资源采集站P2P商业加速解析","type":0,"url":"https://www.dbjiexi.com:966/jx/?url="},
+{"name":"玉兔资源网解析接口","type":0,"url":"https://yutujx.com/?url="},
+{"name":"杏吧资源采集站解析接口","type":0,"url":"https://xbww888.com/?url="}
+],
+	
 	"lives": [
 		{
 			"name": "电视直播",
