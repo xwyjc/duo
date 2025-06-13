@@ -191,7 +191,7 @@
           "标题": "title=\"&&\"",
           "副标题": "<div class=\"module-item-caption\">&&</div>",
           "链接": "href=\"&&\"",
-          "线路数组":"data-dropdown-value=&&</div>[排序:备用节点&&>TX节点>QY节点]",
+          "线路数组":"data-dropdown-value=&&</div>[排序:备用节点>TX节点>QY节点]",
 	      "线路标题":"<span>&&</small>",
 	      "播放数组":"<div class=\"module-tab-content\">&&</div>",
 	      "播放标题":"<span>&&</span>",
