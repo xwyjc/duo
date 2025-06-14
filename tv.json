@@ -1206,7 +1206,7 @@
 	
 	{ "key": "csp_mgtva","name": "🪵木瓜影视🪵",
         "type": 3,"api": "csp_XBPQ",
-       "ext": {"数组": "video-item\"&&</small></div>",
+       "ext": {"数组": "video-item\">&&</small></div>",
 			"标题": "title=\"&&\"",
 			"图片": "data-original=\"&&\"",
 			"副标题": "<div class=\"notes\">&&</div>",
@@ -1366,8 +1366,8 @@
 			"type": 3,"api": "csp_XBPQ",
 			"searchable": 1,"quickSearch": 1,"filterable": 0,
 			"ext": {
-				"分类url": "http://movie.yzcyj.net/index.php/vod/show/id/{cateId}/page/{catePg}.html",
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$32"
+		"分类url": "http://movie.yzcyj.net/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+		"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$32"
 			}
 		},
 		
@@ -1480,7 +1480,7 @@
 			"name": "🙏希望┃影院-失效",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/xyqxbpq.jar",
+			
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -1519,7 +1519,7 @@
 			"name": "💔三九┃影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/xyqxbpq.jar",
+			
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
