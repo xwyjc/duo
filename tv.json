@@ -1206,7 +1206,7 @@
 	
 	{ "key": "csp_mgtva","name": "🪵木瓜影视🪵",
         "type": 3,"api": "csp_XBPQ",
-       "ext": {"数组": "video-item\">&&</small></div>",
+       "ext": {"数组": "<div class=\"col-md-2 ps-0 pe-3 element\">&&</small></div>",
 			"标题": "title=\"&&\"",
 			"图片": "data-original=\"&&\"",
 			"副标题": "<div class=\"notes\">&&</div>",
