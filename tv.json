@@ -1,5 +1,5 @@
 {
-	"spider": "./xyqxbpq.jar",
+	"spider": "./spider.jar",
 	"sites": [
 		
 		
@@ -1214,15 +1214,15 @@
 			"图片": "data-original=\"&&\"",
 			"副标题": "text-right\">&&</span>",
 			"链接": "href=\"&&\"",
-			//"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
-			"播放数组": "<ul class=\"stui-play__list&&</ul>",
+			"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+			
 			"播放列表": "<a&&a>",
 			"播放链接": "href=\"&&\"",
 			"播放标题": ">&&</",
-			//"线路数组": "<div class=\"stui-vodlist__head\">&&</div>",
-			"线路数组": "<ul class=\"tab-top&&</ul>",
-			//"线路标题": "<h3>&&</h3>",
-			"线路标题": "<a href=\"javascript:;\">&&</a>",
+			"线路数组": "<div class=\"stui-vodlist__head\">&&</div>",
+			
+			"线路标题": "<h3>&&</h3>",
+			
 			 "跳转播放链接": "var player_*\"url\":\"&&\"",
             "简介": "小林子为您剧情介绍: +detail-sketch\">&&</span>",
             "分类url": "https://quickvod.cc/type/{cateId}-{catePg}.html",
