@@ -3,6 +3,17 @@
 	"sites": [
 		
 		
+		{"key": "好趣网","name": "🎬电视直播[js]",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/lib/js/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/js/好趣网.js"
+    },  
+		
+		
+		
 		
 	   {"key": "MXVOD明星影院","name": "💰明星┃影院", "type": 3,
          "api": "csp_XBPQ",
@@ -93,6 +104,7 @@
 			}
 		},
 		
+		
 		{"key": "GimyTV","name": "💕┃GimyTV","type": 3,
          "searchable": 1,"quickSearch": 1,"changeable": 1,
          "filterable": 0,"timeout": 60,"api": "csp_XBPQ",
@@ -123,7 +135,7 @@
           "分类": "电视剧$2#电影$1#综艺$3#动漫$4"} },
 
 		
-      { "key": "csp_XBPQ_两个BT",
+       { "key": "csp_XBPQ_两个BT",
        "name": "两个BT bttwo.vip", "type": 3, "api": "csp_XBPQ",
        "searchable": 1,"quickSearch": 1, "filterable": 1,
        "ext": {
@@ -135,14 +147,10 @@
        
         "分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"}},
 		
-		{
-			"key": "XBPQ_OKTV",
-			"name": "🌤OKTV|XB","type": 3,
 		
-			"api": "csp_XBPQ","searchable": 1,
-			"quickSearch": 1,"filterable": 1,
-			"ext": {
-				"简介": "简介：</span>&&</a>",
+		{"key": "XBPQ_OKTV","name": "🌤OKTV|XB","type": 3,
+		"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,
+			"ext": {"简介": "简介：</span>&&</a>",
 				"导演": "导演：target=\"_blank\">&&</a>",
 				"主演": "主演：target=\"_blank\">&&</a>",
 				"剧情介绍": "<div class=\"content_desc context clearfix\">&&</span>",
@@ -425,10 +433,7 @@
 		
 	{"key": "奇优影院", "name": "♻️奇优┃影院",
       "type": 3,
-      "api": "csp_XBPQ",
-     
-      "searchable": 1,
-      "quickSearch": 0,
+      "api": "csp_XBPQ","searchable": 1,"quickSearch": 0,
       "filterable": 1,
       "ext": {"播放数组":"play&&</div>",
 	  "播放线路":"<div id=\"info-r\">&&</div>",
@@ -775,16 +780,7 @@
 	 
 	
     
-	{
-      "key": "好趣网",
-      "name": "🎬电视好趣网[js]",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/lib/js/drpy2.min.js",
-      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/js/好趣网.js"
-    },  
+	
        
 	   {
       "key": "csp_xBPQ_神马影院(94smsm.cc)",
@@ -1218,12 +1214,15 @@
 			"图片": "data-original=\"&&\"",
 			"副标题": "text-right\">&&</span>",
 			"链接": "href=\"&&\"",
-			"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+			//"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
+			"播放数组": "<ul class=\"stui-play__list&&</ul>",
 			"播放列表": "<a&&a>",
 			"播放链接": "href=\"&&\"",
 			"播放标题": ">&&</",
-			"线路数组": "<div class=\"stui-vodlist__head\">&&</div>",
-			"线路标题": "<h3>&&</h3>",
+			//"线路数组": "<div class=\"stui-vodlist__head\">&&</div>",
+			"线路数组": "<ul class=\"tab-top&&</ul>",
+			//"线路标题": "<h3>&&</h3>",
+			"线路标题": "<a href=\"javascript:;\">&&</a>",
 			 "跳转播放链接": "var player_*\"url\":\"&&\"",
             "简介": "小林子为您剧情介绍: +detail-sketch\">&&</span>",
             "分类url": "https://quickvod.cc/type/{cateId}-{catePg}.html",
@@ -1293,12 +1292,12 @@
 				"图片": "data-original=\"&&\"",
 				"副标题": "state\">&&</span>",
 				"链接": "href=\"&&\"",
-				"播放数组": "<ul class=\"hl-plays-list hl-sort-list&&</ul>",
+				"播放数组": "<ul class=\"hl-plays-list&&</ul>",
 				"播放列表": "<a&&a>",
 				"播放链接": "href=\"&&\"",
 				"播放标题": ">&&</",
-				"线路名二次截取": "class=\"hl-plays-from hl-tabs&&</div>",
-	            "线路名截取数组": "<a&&</a>",
+				"线路名二次截取": "class=\"hl-plays-from&&</div>",
+	            "线路名截取数组": "href=\"javascript:void(0);\"&&</a>",
 	            "线路名标题": "alt=\"&&\"",
 				  "搜索模式": "1",
               "搜索url": "https://123kubo.tv/search.html?wd={wd}&submit=",
