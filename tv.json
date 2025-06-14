@@ -907,20 +907,59 @@
    "分类":"电影$1#电视剧$2#综艺$4#动漫$3#短剧$6","类型":""}},
 
 
-{"key":"rarbt1","name":"🔴rarbt","type":3,"api":"csp_XBPQ","searchable": 1,"quickSearch": 0,"filterable": 1,"ext":{"搜索url": "https://www.rarbt.fun/vod/search.html?wd={wd}","线路数组":"\"module-tab-itemtab-item\"&&</div>","分类":"电影$movie#电视剧$Series#综艺$variety#动漫$cartoon#短剧$duanju","分类url":"https://www.rarbt.fun/vod/show/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html"},"jar":"https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar"},
+  {"key":"rarbt1","name":"🔴rarbt","type":3,
+  "api":"csp_XBPQ","searchable": 1,"quickSearch": 0,
+  "filterable": 1,"ext":{"搜索url": "https://www.rarbt.fun/vod/search.html?wd={wd}",
+  "线路数组":"\"module-tab-itemtab-item\"&&</div>",
+  "分类":"电影$movie#电视剧$Series#综艺$variety#动漫$cartoon#短剧$duanju",
+  "分类url":"https://www.rarbt.fun/vod/show/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html"},
+  "jar":"https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar"},
 
 
-{"key":"csp_XBPQ_皮皮影视","name":"💖皮皮影视","type":3,"api":"csp_XBPQ","jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar","searchable": 1,"quickSearch": 0,"filterable": 1,"ext":{"图片数组":" <img class=\"lazy lazyload\"&&</img> ","主页url":"https://pipiys1.com/","分类url":"https://pipiys1.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"}},
+  {"key":"csp_XBPQ_皮皮影视","name":"💖皮皮影视",
+  "type":3,"api":"csp_XBPQ","jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar",
+  "searchable": 1,"quickSearch": 0,"filterable": 1,
+  "ext":{"图片数组":" <img class=\"lazy lazyload\"&&</img> ",
+  "主页url":"https://pipiys1.com/",
+  "分类url":"https://pipiys1.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+  "分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"}},
 
 
-{ "key": "爱电影", "name": "🔥爱电影", "type": 3, "api": "csp_XBPQ","searchable": 1,"quickSearch": 0,"filterable": 1,"jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar", "ext": { "主页url": "https://www.gs4x7nq4.com/", "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36", "简介": "+</label>&&</div>", "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?", "影片类型": "tags\">&&director\">", "影片状态": "bottom\">&&</div>", "二次截取": "videoList\":\\[&&\\]", "数组": "{&&}[不包含:伦理剧]", "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",", "标题": "vodName\":\"&&\"", "副标题": "vodRemarks\":\"&&\"", "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,", "导演": "导演:</div>&&主演", "主演": "主演:</div>&&别名", "线路标题": "xxx", "播放数组": "listitem\">&&info\">", "播放列表": "<a&&</a>", "倒序": "否", "搜索url": "https://m.gs4x7nq4.com/vod/search/wd={wd}", "搜索副标题": "class=\"boottom\"*<div>&&</div", "分类": "电影$1#电视剧$2#综艺$3#动漫$4", "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/area/{area}/year/{year}/page/{catePg}" } },
+   { "key": "爱电影", "name": "🔥爱电影",
+   "type": 3, "api": "csp_XBPQ","searchable": 1,
+   "quickSearch": 0,"filterable": 1,"jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar", 
+   "ext": { "主页url": "https://www.gs4x7nq4.com/",
+   "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
+   "简介": "+</label>&&</div>", 
+   "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+   "影片类型": "tags\">&&director\">",
+   "影片状态": "bottom\">&&</div>",
+   "二次截取": "videoList\":\\[&&\\]", 
+   "数组": "{&&}[不包含:伦理剧]",
+   "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+   "标题": "vodName\":\"&&\"",
+   "副标题": "vodRemarks\":\"&&\"", 
+   "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
+   "导演": "导演:</div>&&主演", 
+   "主演": "主演:</div>&&别名",
+   "线路标题": "xxx", 
+   "播放数组": "listitem\">&&info\">",
+   "播放列表": "<a&&</a>", 
+   "倒序": "否", "搜索url": "https://m.gs4x7nq4.com/vod/search/wd={wd}",
+   "搜索副标题": "class=\"boottom\"*<div>&&</div", 
+   "分类": "电影$1#电视剧$2#综艺$3#动漫$4", 
+   "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/area/{area}/year/{year}/page/{catePg}" } },
 
 
-{"key":"csp_XBPQ_好剧屋","name":"🎬好剧屋","type":3,"api":"csp_XBPQ",    "jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar","searchable": 1,"quickSearch": 0,"filterable": 1,"ext":{"分类url":"https://www.seedsmed.com/vodtype/{cateId}/{area}/{by}/{class}/{lang}/{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#动画片$34"}},
+   {"key":"csp_XBPQ_好剧屋","name":"🎬好剧屋",
+   "type":3,"api":"csp_XBPQ",   
+   "jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar",
+   "searchable": 1,"quickSearch": 0,"filterable": 1,
+   "ext":{"分类url":"https://www.seedsmed.com/vodtype/{cateId}/{area}/{by}/{class}/{lang}/{year}.html",
+   "分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#动画片$34"}},
 
 
-{"key":"csp_XBPQ_八戒影视","name":"🎬八戒影视","type":3,"api":"csp_XBPQ","jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar","searchable": 1,"quickSearch": 0,"filterable": 1,"ext":{"搜索url":"https://www.heimi365.com/vodsearch/{wd}-------------.html","主页url":"https://www.heimi365.com/","分类url":"https://www.heimi365.com/vodtype/{cateId}{area}{by}{class}{lang}{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#记录片$5"}},
-		
+
 		
 		{"key": "1817影视网","name": "1817影视网",
         "type": 3, "api": "csp_XBPQ",
@@ -1167,7 +1206,21 @@
 	
 	{ "key": "csp_mgtva","name": "🪵木瓜影视🪵",
         "type": 3,"api": "csp_XBPQ",
-       "ext": {
+       "ext": {"数组": "video-item\"&&</small></div>",
+			"标题": "title=\"&&\"",
+			"图片": "data-original=\"&&\"",
+			"副标题": "<div class=\"notes\">&&</div>",
+			"链接": "href=\"&&\"",
+			"主演": "主演：&&</div>",
+			"导演": "导演：&&</div>",
+			"简介": "简介：<p>&&</div>",
+			"状态": "更新：&&</div>",
+			"播放数组": "  <ul class=\"playlist column\">&&</ul>",
+			"播放列表": "<a&&a>",
+			"播放链接": "href=\"&&\"",
+			"播放标题": ">&&</",
+			"线路数组": "<li class=\"nav-item\">&&</li>",
+			"线路标题": "aria-selected=\"true\">&&</button>",
         "分类url": "http://www.muguatv1.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
         "分类": "电影&电视剧&综艺&动漫",
        "分类值": "dianying&lianxuju&zongyi&dongman"
