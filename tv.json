@@ -926,7 +926,7 @@
         "type": 3, "api": "csp_XBPQ",
         "ext": {"请求头": "User-Agent$MOBILE_UA",
            "编码": "UTF-8",
-			"数组": " <div class=\"pack-ykpack\">&&</a>",
+			"数组": " <div class=\"pack-ykpack&&</div></div></div>",
           "图片": "data-original=\"&&\"",
           "标题": "title=\"&&\"",
           "链接": "href=\"&&\"",
