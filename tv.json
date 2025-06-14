@@ -755,11 +755,11 @@
 	 
     { "key": "影视森林", "name": "🌲森林┃影视",
 	"type": 3, "api": "csp_XBPQ",
-	"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/jar/xyqxbpq.jar", 
+	
 	"searchable": 1, "quickSearch": 0, "filterable": 1,
 	"ext": { "请求头": "User-Agent$MOBILE_UA",
-	"编码": "UTF-8", "主页url": "https://www.ncshdxx.com/",
-	"分类url": "https://www.ncshdxx.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/", 
+	"编码": "UTF-8", "主页url": "https://www.imtlink.com/",
+	"分类url": "https://www.imtlink.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/", 
 	"分类": "电影$dianying#电视剧$dsj#综艺$zongyi#动漫$dongman#爽文短剧$shuangwenduanju#4k电影$4kdianying#体育赛事$tiyusaishi", 
 	"类型": "喜剧片$xijupian#动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyipian#犯罪片$fanzuipian#冒险片$maoxianpian#动画片$donghuapian#惊悚片$jingsongpian#奇幻片$qihuanpian#纪录片$jilupian#武侠片$wuxiapian||国产剧$guochanju#欧美剧$oumeiju#日剧$riju#韩剧$hanju#港剧$gangju#台剧$taiju#泰剧$taiju#海外剧$haiwaiju||空||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#港台动漫$gangtaidongman#海外动漫$haiwaidongman||空||空||空" } }, 
    
