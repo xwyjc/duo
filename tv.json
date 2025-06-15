@@ -12,13 +12,15 @@
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/js/好趣网.js"
     },  
 		
-         {"key": "139影视","name": "🚗139影视（自）",
+         {"key": "139影视","name": "🚗139影视(自)",
          "type": 3,"api": "csp_XBPQ",
          "ext": {
             "二次截取": "myui-vodlist__bd clearfix\">&&</ul>",
 		        "数组": "myui-vodlist__box\"&&</a>",
 				"标题": "title=\"&&\"",
 				"图片": "data-original=\"&&\"",
+				"简介": "<p class=\"data hidden-xs\">&&</p>",
+				"更新": "更新：</span><span class=\"text-red\">&&</span></p>",
 				"副标题": "text-right\">&&</span>",
 				"链接": "href=\"&&\"",
 				"播放数组": "<ul class=\"myui-content__list&&</ul>",
@@ -35,7 +37,7 @@
         }}, 
 	   
 	   
-	    {"key": "百万电影","name": "🚚百万电影（自）",
+	    {"key": "百万电影","name": "🚚百万电影(自)",
          "type": 3,"api": "csp_XBPQ",
          "ext": {
           
@@ -44,6 +46,7 @@
 				"图片": "data-original=\"&&\"",
 				"副标题": "module-item-douban\">&&</div>",
 				"链接": "href=\"&&\"",
+				"简介": "<div class=\"module-info-item module-info-introduction\">&&</p>",
 				 "线路数组":"data-dropdown-value=&&</div>",
 	            "线路标题":"<span>&&</small>",
 	            "播放数组":"<div class=\"module-play-list-content&&</div>",
@@ -60,21 +63,22 @@
 	   
 	   
 	   
-	     {"key": "chok8","name": "🎥Chok吧电影院（自）",
+	     {"key": "chok8","name": "🎥Chok吧电影(自)",
          "type": 3, "api": "csp_XBPQ",
           "ext": {"数组":"<div class=\"stui-vodlist__box&&</li>",
 			"标题": "title=\"&&\"",
 			"图片": "data-original=\"&&\"",
 			"副标题": "text-right\">&&</span>",
 			"链接": "href=\"&&\"",
+			"简介":"description\" content=\"&&\"",
 			"播放数组": "<ul class=\"stui-content__playlist&&</ul>",
 			"播放列表": "<a&&a>",
 			"播放链接": "href=\"&&\"",
 			"播放标题": ">&&</",
-			"线路数组": "<div class=\"stui-pannel__head&&</div>",
+			"线路数组": "<h3 class=\"title\">&&</div>",
 			"线路标题": ">&&</h3>",
 			 "跳转播放链接": "var player_*\"url\":\"&&\"",
-            "简介": "剧情介绍: +hidden-xs\">&&</span>",
+           
 			 "搜索模式": "1", 
 	        "搜索url": "https://www.chok8.vip/vodsearch/-------------.html?wd={wd}&submit=",
             "分类url": "https://www.chok8.vip/vodtype/{cateId}-{catePg}.html",
@@ -85,7 +89,7 @@
 
 
 		
-	     {"key": "4K4K.LIVE","name": "💰4K4K.LIVE（自）",
+	     {"key": "4K4K.LIVE","name": "💰4K4K.LIVE(自)",
 		 "type": 3,"api": "csp_XBPQ",
 		 "searchable": 1,"quickSearch": 1,"filterable": 1,
          "ext": {"请求头": "User-Agent$MOBILE_UA",
@@ -110,7 +114,7 @@
 		
 		
 		
-	{"key":"爱迪影视","name":"🧁爱迪┃影院（自）",
+	{"key":"爱迪影视","name":"🧁爱迪┃影院(自)",
 	"type":3,"api":"csp_XBPQ",
 	"searchable":1,"quickSearch":1,"filterable":1,
 	"ext":{	"数组": "vodlist_item num_&&</li>",
@@ -136,7 +140,7 @@
 	"分类":"电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman"} },
 	
 		
-   { "key": "小鸭看看", "name": "🐱小鸭看看（自）", 
+   { "key": "小鸭看看", "name": "🐱小鸭看看(自)", 
 	"type": 3, "api": "csp_XBPQ", 
 	"searchable": 1, "quickSearch": 0, "filterable": 1,
 	"ext": { "请求头": "User-Agent$MOBILE_UA", 
@@ -159,7 +163,7 @@
      "分类ID": "/cat/&&.html"} }, 
     
 				
-		{"key": "1817影视网","name": "1817影视网（自）",
+		{"key": "1817影视网","name": "1817影视网(自)",
         "type": 3, "api": "csp_XBPQ",
 		"searchable": 1,"quickSearch": 1,"filterable": 1,
         "ext": {"请求头": "User-Agent$MOBILE_UA",
@@ -191,7 +195,7 @@
 		
 		
 				
-		{"key": "影趣影视网","name": "🏃‍♀️影趣影视网（自）",
+		{"key": "影趣影视网","name": "🏃‍♀️影趣影视网(自)",
         "type": 3, "api": "csp_XBPQ",
 		"searchable": 1,"quickSearch": 1,"filterable": 1,
         "ext": {"请求头": "User-Agent$MOBILE_UA",
@@ -223,7 +227,7 @@
 		
 		
 		
-	     {"key": "MXVOD明星影院","name": "💰明星┃影院（自）", 
+	     {"key": "MXVOD明星影院","name": "💰明星┃影院(自)", 
 		 "type": 3, "api": "csp_XBPQ",
 		 "searchable": 1,"quickSearch": 1,"filterable": 1,
          "ext": { "请求头": "User-Agent$MOBILE_UA",
@@ -349,7 +353,7 @@
         "分类url":"https://www.bttwo.net/{cateId}/{area}/{year}/{class}/page/{catePg}"}},
 		
 		
-		{"key": "XBPQ_OKTV","name": "🌤OKTV|XB（自）","type": 3,
+		{"key": "XBPQ_OKTV","name": "🌤OKTV|XB(自)","type": 3,
 		"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,
 			"ext": {"简介": "简介：</span>&&</a>",
 				"导演": "导演：target=\"_blank\">&&</a>",
@@ -392,7 +396,7 @@
 			}},
 		
 		
-		{"key": "光影迷影视","name": "🎥｜光影迷｜影视（自）",
+		{"key": "光影迷影视","name": "🎥｜光影迷｜影视(自)",
 		"type": 3,
        "api": "csp_XBPQ",
        "ext": { "请求头": "User-Agent$MOBILE_UA",
@@ -600,7 +604,7 @@
         } },
 		
 
-	  {"key": "达达兔影院","name": "🍎达达兔┃影院（自）",
+	  {"key": "达达兔影院","name": "🍎达达兔┃影院(自)",
         "type": 3, "api": "csp_XBPQ",
 		 
         "ext": {"请求头": "User-Agent$MOBILE_UA",
@@ -1114,7 +1118,7 @@
 		
 		
 	
-	  { "key": "永乐视频", "name": "🍉永乐视频（自）",
+	  { "key": "永乐视频", "name": "🍉永乐视频(自)",
         "type": 3,"api": "csp_XBPQ",
         "ext": { "请求头": "User-Agent$MOBILE_UA",
            "编码": "UTF-8",
@@ -1140,7 +1144,7 @@
         }},
 
 
-	{"key": "飞飞影视", "name": "✈️飞飞影视（自）",
+	{"key": "飞飞影视", "name": "✈️飞飞影视(自)",
         "type": 3,"api": "csp_XBPQ",
         "ext": {"请求头": "User-Agent$MOBILE_UA",
            "编码": "UTF-8",
@@ -1247,7 +1251,7 @@
 	
 	
 	
-	{"key": "独播库","name": "🚗独播库（自）",
+	{"key": "独播库","name": "🚗独播库(自)",
         "type": 3,"api": "csp_XBPQ",
         "ext": {
             "二次截取": "myui-vodlist clearfix\">&&</ul>",
@@ -1286,7 +1290,7 @@
         }},
 
 	
-	   {"key": "APP影院","name": "🪶APP影院（自）",
+	   {"key": "APP影院","name": "🪶APP影院(自)",
          "type": 3,"api": "csp_XBPQ",
         "ext": {"数组": "stui-vodlist__item\"&&</li>",
 			"标题": "title=\"&&\"",
@@ -1316,7 +1320,7 @@
         }}, 
 	
 	
-	{ "key": "csp_mgtva","name": "🪵木瓜影视（自）",
+	{ "key": "csp_mgtva","name": "🪵木瓜影视(自)",
         "type": 3,"api": "csp_XBPQ",
        "ext": {"数组": "\"video-item\"&&\"video-item\"&&<div class=\"mbxq\">",
 			"标题": "title=\"&&\"",
@@ -1372,7 +1376,7 @@
     }, 
   
 	
-	   {"key": "快点播","name": "🎥快点播站（自）",
+	   {"key": "快点播","name": "🎥快点播站(自)",
          "type": 3, "api": "csp_XBPQ",
           "ext": {"数组": "stui-vodlist__box\"&&</li>",
 			"标题": "title=\"&&\"",
@@ -1397,7 +1401,7 @@
 
 	
 	
-	    { "key": "剧爸爸","name": "👨剧爸爸（自）",
+	    { "key": "剧爸爸","name": "👨剧爸爸(自)",
          "type": 3, "api": "csp_XBPQ",
          "ext": {"数组": "ewave-vodlist__box\"&&</li>",
 			"标题": "title=\"&&\"",
