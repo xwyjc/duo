@@ -59,7 +59,7 @@
 			
 			"线路标题": "<h3>&&</h3>",
 			
-			 "跳转播放链接": "var player_*\"url\":\"&&\"",
+			 "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
           
             "搜索模式": "1", 
 	        "搜索url": "https://www.kankanwu.cc/vodsearch/{wd}----------{pg}---.html",
