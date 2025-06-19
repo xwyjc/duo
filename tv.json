@@ -47,13 +47,17 @@
 				"副标题": "text-white\">&&</span>",
 				"链接": "href=\"&&\"",
 				"简介": "剧情：&&</div>",
+				"线路数组": "<h4&&h4>",
+				"线路标题": ">&&</",
 	            "播放数组":" <ul class=\"flex items-center md:&&</ul>",
 	           "播放标题":">&&</",
 		       "播放列表":"<a&&a>",
 			   "播放链接": "href=\"&&\"",
 			    "搜索模式": "1", 
 	            "搜索url": "https://ysttv.com/search/index/type/1/keyword/{wd}",
-               "分类url": "https://ysttv.com/library/index/c/{cateId}/t/{class}/y/{year}/s/{by}/page/{catePg}",
+				 "分类url": "https://ysttv.com/library/index/c/{cateId}/t/all/y/all/s/{by}/page/{catePg}",
+				 "排序":"时间排序$1#人气排序$2#评分排序$3",
+               //"分类url": "https://ysttv.com/library/index/c/{cateId}/t/{class}/y/{year}/s/{by}/page/{catePg}",
             	"分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
         }}, 
 	   
