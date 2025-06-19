@@ -28,12 +28,11 @@
 				"播放链接": "href=\"&&\"",
 				"播放标题": ">&&</",
 				"线路数组": "<ul class=\"swiper-wrapper\">&&</ul>",
-				"线路标题": ">&&<em>",
-				
+				"线路标题": ">&&<em></em>",
 				  "搜索模式": "1", 
 	            "搜索url": "https://www.iptkv.icu/vodsearch/-------------.html?wd={wd}",
                "分类url": "https://www.iptkv.icu/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-            	"分类":"电影$1#电视剧$2#综艺$3#动漫$4#伦理$66"
+            	"分类":"电影$1#电视剧$2#综艺$3#动漫$4#伦理$https://www.iptkv.icu/vodtype/56.html"
         }}, 
 		
 		
@@ -132,7 +131,7 @@
 		  "播放列表":"<a&&</a>",
 		   "搜索模式": "1", 
 	     "搜索url": "https://4k4k.live/vodsearch/-------------.html?wd={wd}",
-          "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html",
+          "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}/",
           "分类": "电影片库$1#连续剧片库$2#综艺片库$3#动漫片库$4",
 		 "类型": "动作$8#喜剧$10#爱情$24#科幻$25#歌舞$22#剧情$7#战争$30#悬疑$20#冒险$6#动漫$9#经典$28#犯罪$27#网络电影$29||国产剧$15#港台剧$16#韩日剧$13#泰剧$31#美剧$14||内地$32||日韩$33"
       }
