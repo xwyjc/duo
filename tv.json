@@ -12,6 +12,38 @@
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/js/好趣网.js"
     },  
 		
+		       {"key": "94i影城","name": "🍉94i影城(自)",
+             "type": 3,"api": "csp_XBPQ",
+             "ext": {
+		         "数组": "myui-vodlist__box\"&&</a>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"副标题": "text-right\">&&</span>",
+				"链接": "href=\"&&\"",
+				"简介": "<span class=\"sketch content\">&&</span>",
+				"状态": "<span class=\"text-red\">&&</span>",
+			
+			   "播放数组": "<ul class=\"myui-content__list&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": "href=\"#playlist&&</li>",
+				"线路标题": "tab\">&&</a>",
+				 "搜索模式": "1", 
+	            "搜索url": "https://94itv.app/vod-search.html?wd={wd}&submit=",
+               "分类url": "https://94itv.app/vod-show-area-{area}-by-{by}-id-{cateId}-page-{catePg}-year-{year}.html",
+            	"分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
+            "分类标题": ">&&</a>",
+            "分类ID": "/vod-type-id-&&.html"
+        }}, 
+		
+		
+		
+		
+		
+		
+		
+		
 			{"key": "星空影院","name": "🚗星空影院(自)",
            "type": 3,"api": "csp_XBPQ",
             "ext": {
