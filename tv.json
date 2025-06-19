@@ -12,10 +12,29 @@
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/js/好趣网.js"
     },  
 		
-
-		
-		
-		
+		 
+           {"key": "灯塔影院","name": "🚗灯塔影院(自)",
+         "type": 3,"api": "csp_XBPQ",
+         "ext": {
+           
+		        "数组": "<div class=\"pic\">&&</li>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				
+				
+				"链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"row&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": "<ul class=\"swiper-wrapper\">&&</ul>",
+				"线路标题": ">&&<em>",
+				
+				  "搜索模式": "1", 
+	            "搜索url": "https://www.iptkv.icu/vodsearch/-------------.html?wd={wd}",
+               "分类url": "https://www.iptkv.icu/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+            	"分类":"电影$1#电视剧$2#综艺$3#动漫$4#伦理$66"
+        }}, 
 		
 		
 		
