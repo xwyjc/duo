@@ -12,6 +12,32 @@
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lishuncai8881/c/js/好趣网.js"
     },  
 		
+			{"key": "星空影院","name": "🚗星空影院(自)",
+           "type": 3,"api": "csp_XBPQ",
+            "ext": {
+            "二次截取": "myui-vodlist clearfix\">&&</ul>",
+		     "数组": "myui-vodlist__box\"&&</a>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"副标题": "text-right\">&&</span>",
+				"链接": "href=\"&&\"",
+				"播放数组": "<ul class=\"myui-content__list&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": "href=\"#playlist&&</li>",
+				"线路标题": "tab\">&&</a>",
+				  "搜索模式": "1", 
+	            "搜索url": "https://www.jmso4a.icu/search.php?searchword={wd}",
+            "分类url": "https://www.jmso4a.icu/frim/{cateId}-{catePg}.html",
+            "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
+            "分类标题": ">&&</a>",
+            "分类ID": "/frim/&&.html"
+        }}, 
+		
+		
+		
+		
 		 
            {"key": "灯塔影院","name": "🚗灯塔影院(自)",
          "type": 3,"api": "csp_XBPQ",
@@ -20,15 +46,15 @@
 		        "数组": "<div class=\"pic\">&&</li>",
 				"标题": "title=\"&&\"",
 				"图片": "data-original=\"&&\"",
-				
-				
+				"简介": "简介：&&</div>",
+				"状态": "状态：&&</span>",
 				"链接": "href=\"&&\"",
 				"播放数组": "<ul class=\"row&&</ul>",
 				"播放列表": "<a&&a>",
 				"播放链接": "href=\"&&\"",
 				"播放标题": ">&&</",
-				"线路数组": "<ul class=\"swiper-wrapper\">&&</ul>",
-				"线路标题": ">&&<em></em>",
+				"线路数组": "<ul class=\"swiper-wrapper\">&&</ul>[不包含:线路1]",
+				"线路标题": ">&&<em>",
 				  "搜索模式": "1", 
 	            "搜索url": "https://www.iptkv.icu/vodsearch/-------------.html?wd={wd}",
                "分类url": "https://www.iptkv.icu/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
