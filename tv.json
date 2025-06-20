@@ -37,6 +37,37 @@
         }}, 
 		
 		
+		
+		{"key": "麒麟影音","name": "✈️麒麟影音",
+		"type": 3,"api": "csp_XBPQ",
+		"ext": {
+		"请求头": "User-Agent$MOBILE_UA",
+		"编码": "UTF-8",
+		"主页url": "https://www.70yy.fun/",
+		"数组":" <div class=\"video-item\">&&</a>",
+		"链接": "href=\"&&\"",
+		"标题": "title=\"&&\"",
+		"图片": "data-original=\"&&\"",
+		"副标题": "video-duration\">&&</div>",
+		"状态": "更新：&&</li>",
+		"简介": "简介：&&</li>",
+		"播放数组": "<ul class=\"row&&</ul>",
+		"播放列表": "<a&&a>",
+		"播放链接": "href=\"&&\"",
+		"播放标题": ">&&</",
+		"线路数组": "<ul class=\"swiper-wrapper clearfix\">&&</ul>",
+		"线路标题": ">&&</li>",
+		"分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$5#少儿$46",
+		"分类url": "https://www.70yy.fun/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html"
+       }},
+		
+		
+		
+		
+		
+		
+		
+		
 		   {"key": "影视天堂","name": "🍑影视天堂(自)",
          "type": 3,"api": "csp_XBPQ",
          "ext": {
