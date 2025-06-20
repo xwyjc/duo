@@ -64,7 +64,29 @@
        }},
 		
 		
-		
+		     {"key": "17k影视","name": "✈️17k影视(自)",
+		 "type": 3,"api": "csp_XBPQ",
+		 "searchable": 1,"quickSearch": 1,"filterable": 1,
+         "ext": {"请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "数组": "<li class=\"hl-list-item&&</li>",
+          "图片": "data-original=\"&&\"",
+          "标题": "title=\"&&\"",
+          "副标题": "<span class=\"hl-lc-1 remarks\">&&</span>",
+          "链接": "href=\"&&\"",
+		  "简介": "简介：</em>&&</li>",
+		   "线路数组":"href=\"javascript:void(0);\"&&</a>",
+	       "线路标题":"alt=\"&&\"",
+	      "播放数组":"<ul class=\"hl-plays-list&&</ul>",
+	      "播放标题":">&&<",
+		  "播放列表":"<a&&/a>",
+		   "搜索模式": "1", 
+	     "搜索url": "https://17k.me/vodsearch/-------------.html?wd={wd}&submit=",
+          "分类url": "https://17k.me/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}/",
+          "分类": "电影片库$1#连续剧片库$2#综艺片库$4#动漫片库$3#番剧$https://17k.me/vodtype/66.html",
+		 "类型": "动作$6#喜剧$7#爱情$10#科幻$8#记录$11#剧情$34#战争$33#悬疑$20#灾难$12#动画$59#经典$28#犯罪$61#悬念$62||国产剧$14#香港剧$13#日剧$15#泰剧$16#美剧$58#韩剧$57#台湾剧$56#海外$21||空||空"
+      }
+    },	 	
 		
 		
 		
