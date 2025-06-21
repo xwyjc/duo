@@ -36,9 +36,35 @@
             "分类ID": "/vod-type-id-&&.html"
         }}, 
 		
+			
+		{"key": "北川影视","name": "✈️北川┃影视（自）",
+			"type": 3,"api": "csp_XBPQ",
+			"ext": {"请求头": "User-Agent$MOBILE_UA",
+			"编码": "UTF-8",
+			"主页url": "https://www.xgdy.xyz/",
+			"数组": "<a&&</div></div></a>",
+			"链接": "href=\"&&\"",
+			"图片": "data-original=\"&&\"",
+			"标题": "title=\"&&\"",
+			"副标题": "-note\">&&</div>",
+			"播放数组": "module-play-list-content&&</div>",
+			"播放列表": "<a&&a>",
+			"播放链接": "href=\"&&\"",
+			"播放标题": "<span>&&</span>",
+			"线路数组": "module-tab-item tab-item&&</div>",
+			"线路标题": "<span>&&</span>",
+			"跳转播放链接": "var player_*\"url\":\"&&\"",
+			"搜索url": "https://www.xgdy.xyz/vodsearch/page/{pg}/wd/{wd}/",
+			"分类url": "https://www.xgdy.xyz/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+			"分类": "电影$1#连剧集$2#综艺$3#动漫$4"
+			}
+		},
 		
 		
-		{"key": "麒麟影音","name": "✈️麒麟影音",
+		
+		
+		
+		{"key": "麒麟影音","name": "✈️麒麟影音（自）",
 		"type": 3,"api": "csp_XBPQ",
 		"ext": {
 		"请求头": "User-Agent$MOBILE_UA",
@@ -3717,12 +3743,10 @@
 				"排序": "按时间$time#按人气$hit#按推荐$commend"
 			}
 		},
-		{
-			"key": "韩剧看看",
-			"name": "🇰🇷韩剧┃看看",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/xyqxbpq.jar",
+		
+		
+		{"key": "韩剧看看","name": "🇰🇷韩剧┃看看",
+			"type": 3,"api": "csp_XBPQ",
 			"ext": {
 				"请求头": "User-Agent$MOBILE_UA",
 				"编码": "UTF-8",
@@ -3750,105 +3774,10 @@
 			}
 		},
 	
-		{
-			"key": "火狼影院",
-			"name": "❤️火狼影院🎦",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": "./js/火狼影院.json",
-			"jar": "./lib/xyqxbpq.jar"
-		},
+		
 	
-		{
-			"key": "神马影院",
-			"name": "神马🐴影院",
-			"type": 3,
-			"jar": "./lib/xyqxbpq.jar",
-			"api": "csp_XBPQ",
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"主页url": "http://www.sijiaokeji.com/",
-				"数组": "loading\"&&</li>",
-				"标题": "title=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"副标题": "text-bg-r\"&&</span>",
-				"链接": "href=\"&&\"",
-				"播放数组": "clearfix fade&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</[不包含:💞美女直播💞]",
-				"线路数组": "playlist&&</a >",
-				"线路标题": ">&&</",
-				"跳转播放链接": "var player_*\"url\":\"&&\"",
-				"搜索模式": "1",
-				"搜索url": "http://www.sijiaokeji.com/search/?wd={wd}",
-				"分类url": "http://www.sijiaokeji.com/{cateId}/index_{class}_{area}_{year}__{by}_{catePg}.html",
-				"分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman"
-			}
-		},
-		{
-			"key": "一个g影院",
-			"name": "❤️一G┃影院",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": "./js/一个G影视.json",
-			"jar": "./lib/xyqxbpq.jar"
-		},
-		{
-			"key": "AnFuns动漫",
-			"name": "🅰️AnFuns┃动漫",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/xyqxbpq.jar",
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"主页": "https://www.anfuns.org/",
-				"数组": "默认--hl-lazy\"&&</a>||搜索--hl-lazy\"&&</a>",
-				"链接": "默认--href=\"&&\"||搜索--href=\"&&\"",
-				"图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
-				"标题": "默认--title=\"&&\"||搜索--title=\"&&\"",
-				"副标题": "默认--state\">&&</div>||搜索--remarks\">&&</span>",
-				"播放数组": "hl-plays-list hl-sort-list&&</ul>",
-				"播放列表": "<li&&</li>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</a>",
-				"线路数组": "hl-tabs-btn&&a>",
-				"线路标题": "alt=\"&&\"",
-				"搜索url": "https://www.anfuns.org/search/page/{pg}/wd/{wd}.html",
-				"分类": "新旧番剧$1#蓝光无修$2#动漫剧场$3#欧美动漫$4",
-				"分类url": "https://www.anfuns.org/type/{cateId}-{catePg}.html"
-			}
-		},
-		{
-			"key": "北川影视",
-			"name": "🐻‍❄️北川┃影视",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/xyqxbpq.jar",
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"防走丢": "https://www.bcyingshi.ink/fb/",
-				"主页url": "https://www.bczhuiju.com/",
-				"数组": "默认--/voddetail/&&</a>||搜索--module-card-item-class&&module-card-item-info",
-				"链接": "默认--/voddetail/+&&\"||搜索--href=\"&&\"",
-				"图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
-				"标题": "默认--title=\"&&\"||搜索--alt=\"&&\"",
-				"副标题": "默认--note\">&&</div>||搜索--note\">&&</div>",
-				"播放数组": "module-play-list-base&&</div>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": "<span>&&</span>",
-				"线路数组": "module-tab-item tab-item&&</div>",
-				"线路标题": "<span>&&</span>",
-				"跳转播放链接": "var player_*\"url\":\"&&\"",
-				"搜索url": "https://www.bczhuiju.com/vodsearch/page/{pg}/wd/{wd}/",
-				"分类url": "https://www.bczhuiju.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
-				"分类": "电影$1#连剧集$2#综艺$3#动漫$4"
-			}
-		},
+	
+	
 		
 		
 		
