@@ -13,6 +13,38 @@
     },  
 		
 		
+		
+		
+    			
+		{"key": "北觅影视","name": "🍉北觅┃影视（自）",
+			"type": 3,"api": "csp_XBPQ",
+			"ext": {
+			"主页url": "https://v.luttt.com/",
+			"数组": "<li class=\"hl-list-item&&</li>",
+			"链接": "href=\"&&\"",
+			"图片": "data-original=\"&&\"",
+			"标题": "title=\"&&\"",
+			"简介": "<span class=\"hl-content-text\"><em>&&</em></span>",
+			"副标题": "hl-lc-1 remarks\">&&</span>",
+			"播放数组": "<ul class=\"hl-plays-list&&</ul>",
+			"播放列表": "<a&&a>",
+			"播放链接": "href=\"&&\"",
+			"播放标题": ">&&</",
+			"线路数组": "href=\"javascript:void(0);\"&&</a></div>",
+			"线路标题": "alt=\"&&\"",
+			"跳转播放链接": "var player_*\"url\":\"&&\"",
+			"搜索url": "https://v.luttt.com/vodsearch/-------------/?wd={wd}&submit=",
+			"分类url": "https://v.luttt.com/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}/",
+			"分类数组": "hl-bg-subs\"&&/a>",
+            "分类标题": ">&&<",
+            "分类ID": "/vodtype/&&/"
+			}
+		},
+		
+		
+		
+		
+		
 	{"key":"皮皮蛋","name":"🥚皮皮蛋",
 	"type":3,"api":"csp_XBPQ",   
 	"jar": "https://github.moeyy.xyz/https://github.com/lishuncai8881/c/blob/jar/xbpq.jar",  
