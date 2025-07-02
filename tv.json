@@ -35,6 +35,7 @@
 			"跳转播放链接": "var player_*\"url\":\"&&\"",
 			"搜索url": "https://v.luttt.com/vodsearch/-------------/?wd={wd}&submit=",
 			"分类url": "https://v.luttt.com/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}/",
+			 "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&意大利&西班牙&加拿大&其他",
 			"分类数组": "hl-bg-subs\"&&/a>",
             "分类标题": ">&&<",
             "分类ID": "/vodtype/&&/"
